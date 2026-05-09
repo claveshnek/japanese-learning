@@ -214,18 +214,28 @@ function fStartGame() {
     alert('Ошибка! Переменная gCardKana имеет нестандартное значение. Операция прервана.');
     return; }
 
-  bodyElem.addEventListener('mousemove',fDrag);  // adding events listeners to the body
+  bodyElem.addEventListener('mousemove',fDrag);
   bodyElem.addEventListener('mouseup',fDragEndBody);
   bodyElem.addEventListener('mouseenter',fMouseBodyEnter);
+  bodyElem.addEventListener('touchmove',fTouchDrag,{passive:false});
+  bodyElem.addEventListener('touchend',fTouchEnd);
+  bodyElem.addEventListener('touchcancel',fTouchEnd);
   curRemain = 46;
   curErrors = 0;
   curDate = new Date();
 }
 
+function fGetXY(e) {
+  if (e.touches && e.touches.length > 0)
+    return {x: e.touches[0].clientX, y: e.touches[0].clientY};
+  return {x: e.clientX, y: e.clientY};
+}
+
 function fDragStart(e) {
   e.preventDefault();
+  var pos = fGetXY(e);
   curCard = e.currentTarget;
-  if (gCardKana == 'S') {  //2
+  if (gCardKana == 'S') {
     fLoadNewAudio(curCard.value);
     audioPlayer.play(); }
   else
@@ -233,8 +243,8 @@ function fDragStart(e) {
   curCard.style.zIndex = ++curZ;
   curCard.style.opacity = 0.75;
   curCard.style.pointerEvents = 'none';
-  curX = e.clientX - parseInt(curCard.style.left);
-  curY = e.clientY - parseInt(curCard.style.top);
+  curX = pos.x - parseInt(curCard.style.left);
+  curY = pos.y - parseInt(curCard.style.top);
   curB = true;
   curBeginL = curCard.style.left;
   curBeginT = curCard.style.top;
@@ -242,9 +252,37 @@ function fDragStart(e) {
 
 function fDrag(e) {
   if (curB) {
-    e.preventDefault(); // just in case
+    e.preventDefault();
     curCard.style.left = e.clientX - curX + 'px';
     curCard.style.top = e.clientY - curY + 'px'; }
+}
+
+function fTouchDrag(e) {
+  if (curB) {
+    e.preventDefault();
+    var pos = fGetXY(e);
+    curCard.style.left = pos.x - curX + 'px';
+    curCard.style.top = pos.y - curY + 'px'; }
+}
+
+function fTouchEnd(e) {
+  if (curB) {
+    var rect, cells, i, cell;
+    var cardLeft = parseInt(curCard.style.left);
+    var cardTop = parseInt(curCard.style.top);
+    var cardCX = cardLeft + curCard.offsetWidth / 2;
+    var cardCY = cardTop + curCard.offsetHeight / 2;
+    cells = document.querySelectorAll('td[id]');
+    for (i = 0; i < cells.length; i++) {
+      cell = cells[i];
+      rect = cell.getBoundingClientRect();
+      if (cardCX >= rect.left && cardCX <= rect.right && cardCY >= rect.top && cardCY <= rect.bottom) {
+        fDragEndCell(cell);
+        return;
+      }
+    }
+    fDragEndBody();
+  }
 }
 
 function fDragEndBody() {
@@ -363,11 +401,13 @@ function fShowArchive() {
 function fGenerateNewCard (cardType, kana) {  // Generate 1 new card, clear outwardly but with value = kana
   var newCard = document.createElement(cardType);
   newCard.style.position = 'absolute';
-  newCard.style.left = Math.floor(Math.random()*350)+450+'px';
-  newCard.style.top = Math.floor(Math.random()*570)+'px';
+  var isMobile = window.innerWidth < 600;
+  newCard.style.left = isMobile ? Math.floor(Math.random()*(window.innerWidth-80))+'px' : Math.floor(Math.random()*350)+450+'px';
+  newCard.style.top = isMobile ? Math.floor(Math.random()*300)+350+'px' : Math.floor(Math.random()*570)+'px';
   newCard.style.zIndex = Math.floor(Math.random()*1000);
   newCard.value = kana;
   newCard.addEventListener('mousedown',fDragStart);
+  newCard.addEventListener('touchstart',fDragStart,{passive:false});
   document.body.appendChild(newCard);
   return newCard;
 }

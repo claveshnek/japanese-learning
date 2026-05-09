@@ -2,12 +2,15 @@
 <html>
 <head>
   <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
   <title>Kana Tables</title>
   <link rel='stylesheet' href='basic/reset.css'>
 
   <style>
     body {
-        max-width: 1070px;
+        max-width: 100%;
+        margin: 0;
+        overflow-x: hidden;
     }
     #navBar {    /* стиль фона под навигационными вкладками */
       background-color: papayawhip;
@@ -15,13 +18,13 @@
     }
     nav>a {      /* стиль непостредственно вкладок */
       display: inline-block;
-      min-width: 80px;
+      min-width: 60px;
       text-align: center;
-      font-size: 0.8em;
+      font-size: 0.75em;
       text-decoration: none;
       color: grey;
-      padding: 5px;
-      margin: 8px 5px 0;
+      padding: 5px 4px;
+      margin: 4px 2px 0;
       border-color: grey;
       border-width: 2px;
       border-style: solid solid none;
@@ -30,7 +33,11 @@
     a.active {    /* В активной вкладке стиль немного другой, чем в пассивных */
       background-color: white; }
     #firstGame {
-      margin-left: 73px; }
+      margin-left: 10px; }
+    #navBar {
+      display: flex;
+      flex-wrap: wrap;
+    }
   </style>
 
   <script>
@@ -67,7 +74,7 @@
 </nav>
 
 <!-- Плавающий фрейм, внутри которого выводим другие страницы. В нашем случае это различные интерфейсы. -->
-<iframe name='mainFrame' src='' width='1070px' height='760px' style='border-style:none; margin:30px 5px'>
+<iframe name='mainFrame' src='' style='border-style:none; margin:10px 0; width:100%; height:calc(100vh - 80px);'>
   <p>Your browser does not support iframes.</p>
 </iframe>
 

@@ -1,5 +1,9 @@
 body {
   padding: 15px 0 0 15px;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: pan-y;
+  overflow-x: hidden;
 }
 
 /* -------------------------
@@ -10,6 +14,15 @@ table {
   float: left;
   cursor: default;
   margin: 0 50px 50px 0;
+}
+
+@media (max-width: 600px) {
+  body { padding: 5px 0 0 5px; }
+  table { transform: scale(0.55); transform-origin: top left; margin: 0 -150px 0 0; }
+  div.capR { width: 60px; height: 50px; font-size: 36px; padding-top: 10px; border-width: 2px; }
+  img.capH, img.capK { width: 70px; height: 70px; border-width: 2px; }
+  div.capS { width: 50px; height: 50px; border-width: 2px; }
+  fieldset { width: auto; max-width: 90vw; font-size: 14px; }
 }
 
 th {
@@ -118,6 +131,9 @@ div.capR {          /* cap - Card Arrearance */
   padding-top: 20px;
   border: 3px solid orange;
   cursor: default;
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 img.capH {
@@ -125,6 +141,8 @@ img.capH {
   height: 160px;
   background-color: #FFFF66;
   border: 3px solid red;
+  touch-action: none;
+  -webkit-user-select: none;
 }
 
 img.capK {
@@ -132,6 +150,8 @@ img.capK {
   height: 160px;
   background-color: #FFFFF0; /*ivory*/
   border: 3px solid blue;
+  touch-action: none;
+  -webkit-user-select: none;
 }
 
 div.capS {
@@ -139,4 +159,6 @@ div.capS {
   height: 100px;
   background-color: mediumpurple;
   border: 3px solid purple;
+  touch-action: none;
+  -webkit-user-select: none;
 }
