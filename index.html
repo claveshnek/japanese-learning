@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>日本語マトリックス — Японские матрицы Замяткина</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1a1a2e">
+  <style>
+    .home-hero { text-align: center; padding: 40px 16px 20px; }
+    .home-hero h1 { font-size: 28px; margin-bottom: 6px; }
+    .home-hero .jp-title { color: var(--jp); font-size: 22px; }
+    .home-hero p { color: var(--text2); font-size: 14px; margin-top: 8px; max-width: 500px; margin-left: auto; margin-right: auto; }
+    .stats-row { display: flex; gap: 12px; justify-content: center; margin: 20px 0; flex-wrap: wrap; }
+    .stat-card { background: var(--bg2); border-radius: var(--radius); padding: 16px 24px; text-align: center; }
+    .stat-num { font-size: 28px; font-weight: bold; color: var(--accent); }
+    .stat-label { font-size: 12px; color: var(--text2); margin-top: 4px; }
+    .search-box { width: 100%; max-width: 500px; margin: 16px auto; display: block; padding: 12px 16px; background: var(--bg2); border: 2px solid var(--bg3); color: var(--text); border-radius: 24px; font-size: 15px; outline: none; }
+    .search-box:focus { border-color: var(--accent); }
+    .search-box::placeholder { color: var(--text2); }
+  </style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="nav">
+  <button class="nav-btn active" data-page="listPage">Диалоги</button>
+  <button class="nav-btn" data-page="kanaPage">Кана</button>
+  <button class="nav-btn" data-page="aboutPage">О проекте</button>
+</nav>
+
+<!-- DIALOGUE LIST PAGE -->
+<div id="listPage" class="page active">
+  <div class="home-hero">
+    <div class="jp-title">日本語マトリックス</div>
+    <h1>Японские матрицы</h1>
+    <p>Метод Замяткина для японского языка. Слушайте диалоги, следите за текстом, учите кану.</p>
+  </div>
+  <div class="stats-row">
+    <div class="stat-card"><div class="stat-num">46</div><div class="stat-label">диалогов</div></div>
+    <div class="stat-card"><div class="stat-num">840</div><div class="stat-label">аудиофайлов</div></div>
+    <div class="stat-card"><div class="stat-num">3</div><div class="stat-label">серии</div></div>
+  </div>
+  <input class="search-box" type="text" placeholder="Поиск диалога..." oninput="filterList(this.value)">
+  <div id="dialogueList"></div>
+</div>
+
+<!-- PLAYER PAGE -->
+<div id="playerPage" class="page">
+  <div class="player-header">
+    <button class="back-btn" onclick="goBack()">←</button>
+    <div>
+      <div id="playerTitle" class="player-title"></div>
+      <div id="playerSubtitle" class="player-subtitle"></div>
+    </div>
+  </div>
+
+  <!-- Mode tabs -->
+  <div class="mode-tabs">
+    <button class="mode-btn" data-mode="clean" onclick="setMode('clean')">Чистый аудио</button>
+    <button class="mode-btn active" data-mode="transcription" onclick="setMode('transcription')">С транскрипцией</button>
+    <button class="mode-btn" data-mode="translation" onclick="setMode('translation')">С переводом</button>
+  </div>
+
+  <!-- Audio controls -->
+  <div class="audio-controls">
+    <div class="audio-main-row">
+      <button class="play-btn" id="playBtn" onclick="togglePlay()">▶</button>
+      <div class="progress-wrap">
+        <input type="range" class="progress-bar" id="progressBar" value="0" min="0" max="100" step="0.1" oninput="seekAudio()">
+        <div class="time-display" id="timeDisplay">0:00 / 0:00</div>
+      </div>
+    </div>
+    <div class="segment-row" id="segmentRow"></div>
+  </div>
+
+  <!-- Dialogue lines -->
+  <div class="lines-container" id="linesContainer"></div>
+</div>
+
+<!-- KANA PAGE -->
+<div id="kanaPage" class="page">
+  <iframe class="kana-frame" src="assets/kana/index-ru.html"></iframe>
+</div>
+
+<!-- ABOUT PAGE -->
+<div id="aboutPage" class="page">
+  <div style="max-width:600px;margin:0 auto;padding:20px 0;">
+    <h2 style="color:var(--accent);margin-bottom:16px;">О проекте</h2>
+    <p style="margin-bottom:12px;">Матрицы для изучения японского языка по методу Замяткина. Эти японские матрицы основаны на диалогах из учебников:</p>
+    <ul style="margin:12px 0 12px 20px;color:var(--text2);line-height:1.8;">
+      <li><strong style="color:var(--text)">Серия A</strong> — GENKI I: An Integrated Course in Elementary Japanese</li>
+      <li><strong style="color:var(--text)">Серия B</strong> — Beginning Japanese: Your Pathway to Dynamic Language Acquisition</li>
+      <li><strong style="color:var(--text)">Серия C</strong> — JapanesePod101 и другие источники</li>
+    </ul>
+    <h3 style="color:var(--jp);margin:20px 0 10px;">Как пользоваться</h3>
+    <ol style="margin-left:20px;color:var(--text2);line-height:2;">
+      <li><strong style="color:var(--text)">Чистый аудио</strong> — слушайте без текста, тренируйте восприятие на слух</li>
+      <li><strong style="color:var(--text)">С транскрипцией</strong> — следите за японским текстом и ромадзи</li>
+      <li><strong style="color:var(--text)">С переводом</strong> — японский + ромадзи + русский перевод</li>
+    </ol>
+    <h3 style="color:var(--jp);margin:20px 0 10px;">Горячие клавиши</h3>
+    <ul style="margin-left:20px;color:var(--text2);line-height:2;">
+      <li><strong style="color:var(--text)">Пробел</strong> — воспроизведение/пауза</li>
+      <li><strong style="color:var(--text)">← →</strong> — предыдущий/следующий сегмент</li>
+    </ul>
+    <p style="margin-top:24px;color:var(--text2);font-size:13px;">Автор матриц: Мальвина Пушкова (bhlady@mail.ru). Программа для изучения кан также её работа.</p>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+<script>
+function filterList(query) {
+  query = query.toLowerCase();
+  document.querySelectorAll('.dialogue-card').forEach(card => {
+    const text = card.textContent.toLowerCase();
+    card.style.display = text.includes(query) ? '' : 'none';
+  });
+}
+</script>
+</body>
+</html>

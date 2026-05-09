@@ -1,0 +1,174 @@
+body {
+  width: 1052px;
+  color: sienna;
+  padding: 15px 0 0 15px;
+}
+
+/* -------------------------
+/   Table
+--------------------------*/
+table {
+	border: 2px outset gainsboro;
+  float: left;
+  cursor: default;
+}
+
+th {
+  display: none;
+	width: 50px;
+  padding-bottom: 5px;
+	border: 1px solid gainsboro;
+  font-weight: normal;
+}
+
+td {
+	width: 78px;
+	border: 1px solid gainsboro;
+  position: relative;
+}
+
+div.cellContainer {
+  height: 54px;
+  width: 69px;
+  border: 5px solid transparent;
+}
+
+img.kanaImg {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+div.sylR {
+  position: absolute;
+  height: 20px;
+  bottom: 0px;
+  right: 7px;
+  font-family: Arial, sans-serif;
+  font-size: 19px;
+  color: orange;
+  visibility: hidden;
+}
+
+div.sylH {
+  position: absolute;
+  height: 20px;
+  bottom: 0px;
+  right: 7px;
+  color: red;
+  font-size: 19px;
+  visibility: hidden;
+}
+
+div.sylK {
+  position: absolute;
+  height: 20px;
+  bottom: 0px;
+  right: 7px;
+  color: blue;
+  font-size: 19px;
+  visibility: hidden;
+}
+
+/* -------------------------
+/   Detailed Kana
+--------------------------*/
+div#detailContainer {
+  position: relative;
+  width: 550px;
+  height: 160px;
+  border: solid 5px papayawhip;
+}
+
+img#dtl1 {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  height: 160px;
+  width: 160px;
+  border: 3px solid papayawhip;
+}
+
+canvas#dtl1a {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+img#dtl2 {
+  position: absolute;
+  bottom: 10px;
+  left: 225px;
+  max-height: 80px;
+}
+
+img#dtl2+div {
+  position: absolute;
+  left: 140px;
+  top: 140px;
+  height: 40px;
+  width: 40px;
+  background-color: whitesmoke;
+  border: solid 5px papayawhip;
+}
+
+img#dtl3 {
+  height: 40px;
+  width: 40px;
+  opacity: 0.25;
+}
+
+/* -------------------------
+/   Controls
+--------------------------*/
+fieldset {
+  width: 241px;
+  margin: 0 0 24px 0;
+  padding: 5px 11px 7px;
+  border: 1px groove #b1ac85;
+}
+
+span.addInf {
+  font-size:small;
+  font-style:italic;
+  color:grey;
+}
+
+input#repeatNumber {
+  width:32px;
+  text-align:center;
+  margin-top: 3px;
+}
+
+input#repeatPause {
+  width:37px;
+  padding-left:4px;
+  margin-top: 4px;
+}
+
+label#labelVolume>img {
+  width:18px;
+  height:18px;
+  margin-right:5px;
+}
+
+input#vlmRange {
+  width:40px;
+}
+
+button#btnPlay {
+  width: 50px;
+  padding: 0;
+  margin: 5px 0 0 10px;
+  vertical-align: bottom;
+}
+
+button#btnPlay>div {
+  width: 22px;
+  height: 18px;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url('player-icons.png');
+  background-repeat: no-repeat;
+  background-position: right 0;
+}

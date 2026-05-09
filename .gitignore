@@ -1,0 +1,9 @@
+temp_*.png
+assets/pdf-images/
+site-deploy/
+*.py
+compress_audio.py
+larunamave.html
+larunamave.html.bak
+top10models.html
+.claude/settings.local.json

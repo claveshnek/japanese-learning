@@ -1,0 +1,157 @@
+body {
+  width: 1052px;
+  color: sienna;
+  padding: 15px 0 0 15px;
+}
+
+/* -------------------------
+/   Table
+--------------------------*/
+table {
+	border: 2px outset gainsboro;
+  float: left;
+  cursor: default;
+}
+
+th {
+  display: none;
+	width: 50px;
+  padding-bottom: 5px;
+	border: 1px solid gainsboro;
+  font-weight: normal;
+}
+
+td {
+	width: 106px;
+	border: 1px solid gainsboro;
+  position: relative;
+}
+
+div.cellContainer {
+  height: 52px;
+  width: 98px;
+  border: 5px solid transparent;
+}
+
+div.bigH {
+  height: 30px;
+  width: 74px;
+  margin: 3px 0 0 0px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  color: black;
+  display: none;
+}
+
+div.bigH::first-letter {
+  font-size: 35px;
+}
+
+div.bigK {
+  height: 30px;
+  width: 74px;
+  margin: 3px 0 0 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  color: darkblue;
+  display: none;
+}
+
+div.bigK::first-letter {
+  font-size: 35px;
+}
+
+div.sylR {
+  position: absolute;
+  height: 21px;
+  bottom: 1px;
+  right: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: orange;
+  visibility: hidden;
+}
+
+div.sylH {
+  position: absolute;
+  bottom: 1px;
+  right: 0px;
+  color: red;
+  font-size: 18px;
+  visibility: hidden;
+}
+/*
+div.sylH::first-letter {
+  font-size: 22px;
+  font-weight: normal;
+}
+*/
+div.sylK {
+  position: absolute;
+  bottom: 1px;
+  right: 0px;
+  color: blue;
+  font-size: 18px;
+  visibility: hidden;
+}
+/*
+div.sylK::first-letter {
+  font-size: 22px;
+}
+*/
+/* -------------------------
+/   Controls
+--------------------------*/
+fieldset {
+  width: 240px;
+  margin: 0 0 24px 0;
+  padding: 5px 11px 7px;
+  border: 1px groove #b1ac85;
+}
+
+span.addInf {
+  font-size:small;
+  font-style:italic;
+  color:grey;
+}
+
+input#repeatNumber {
+  width:32px;
+  text-align:center;
+  margin-top: 3px;
+}
+
+input#repeatPause {
+  width:37px;
+  padding-left:4px;
+  margin-top: 4px;
+}
+
+label#labelVolume>img {
+  width:18px;
+  height:18px;
+  margin-right:5px;
+}
+
+input#vlmRange {
+  width:40px;
+}
+
+button#btnPlay {
+  width: 50px;
+  padding: 0;
+  margin: 5px 0 0 10px;
+  vertical-align: bottom;
+}
+
+button#btnPlay>div {
+  width: 22px;
+  height: 18px;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url('player-icons.png');
+  background-repeat: no-repeat;
+  background-position: right 0;
+}

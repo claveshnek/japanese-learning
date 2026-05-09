@@ -1,0 +1,9 @@
+{
+  "name": "Японские матрицы Замяткина",
+  "short_name": "日本語マトリックス",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#1a1a2e",
+  "description": "Изучение японского языка по методу Замяткина"
+}

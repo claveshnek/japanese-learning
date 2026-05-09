@@ -1,0 +1,445 @@
+<!doctype html>
+<html>
+<meta charset='utf-8'>
+<title>Таблица кан-базовая</title>
+<link rel='stylesheet' href='reset.css'>
+<link rel='stylesheet' href='table-basic.css'>
+<script src='table-basic.js' defer></script>
+<body onload='fLoad()' onunload='fUnload()'>
+
+<table>
+  <tr>
+    <th>&nbsp;</th>
+    <th>a</th>
+    <th>i</th>
+    <th>u</th>
+    <th>e</th>
+    <th>o</th>
+  </tr>
+  <tr>
+    <th>∅</th>
+    <td id='a' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>a</div>
+        <div class='sylH'>あ</div>
+        <div class='sylK'>ア</div>
+      </div></td>
+    <td id='i' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>i</div>
+        <div class='sylH'>い</div>
+        <div class='sylK'>イ</div>
+      </div></td>
+    <td id='u' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>u</div>
+        <div class='sylH'>う</div>
+        <div class='sylK'>ウ</div>
+      </div></td>
+    <td id='e' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>e</div>
+        <div class='sylH'>え</div>
+        <div class='sylK'>エ</div>
+      </div></td>
+    <td id='o' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>o</div>
+        <div class='sylH'>お</div>
+        <div class='sylK'>オ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>k</th>
+    <td id='ka' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>ka</div>
+        <div class='sylH'>か</div>
+        <div class='sylK'>カ</div>
+      </div></td>
+    <td id='ki' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>ki</div>
+        <div class='sylH'>き</div>
+        <div class='sylK'>キ</div>
+      </div></td>
+    <td id='ku' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>ku</div>
+        <div class='sylH'>く</div>
+        <div class='sylK'>ク</div>
+      </div></td>
+    <td id='ke' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>ke</div>
+        <div class='sylH'>け</div>
+        <div class='sylK'>ケ</div>
+      </div></td>
+    <td id='ko' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>ko</div>
+        <div class='sylH'>こ</div>
+        <div class='sylK'>コ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>s</th>
+    <td id='sa' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>sa</div>
+        <div class='sylH'>さ</div>
+        <div class='sylK'>サ</div>
+      </div></td>
+    <td id='shi' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>shi</div>
+        <div class='sylH'>し</div>
+        <div class='sylK'>シ</div>
+      </div></td>
+    <td id='su' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>su</div>
+        <div class='sylH'>す</div>
+        <div class='sylK'>ス</div>
+      </div></td>
+    <td id='se' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>se</div>
+        <div class='sylH'>せ</div>
+        <div class='sylK'>セ</div>
+      </div></td>
+    <td id='so' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>so</div>
+        <div class='sylH'>そ</div>
+        <div class='sylK'>ソ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>t</th>
+    <td id='ta' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>ta</div>
+        <div class='sylH'>た</div>
+        <div class='sylK'>タ</div>
+      </div></td>
+    <td id='chi' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>chi</div>
+        <div class='sylH'>ち</div>
+        <div class='sylK'>チ</div>
+      </div></td>
+    <td id='tsu' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>tsu</div>
+        <div class='sylH'>つ</div>
+        <div class='sylK'>ツ</div>
+      </div></td>
+    <td id='te' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>te</div>
+        <div class='sylH'>て</div>
+        <div class='sylK'>テ</div>
+      </div></td>
+    <td id='to' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>to</div>
+        <div class='sylH'>と</div>
+        <div class='sylK'>ト</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>n</th>
+    <td id='na' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>na</div>
+        <div class='sylH'>な</div>
+        <div class='sylK'>ナ</div>
+      </div></td>
+    <td id='ni' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>ni</div>
+        <div class='sylH'>に</div>
+        <div class='sylK'>ニ</div>
+      </div></td>
+    <td id='nu' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>nu</div>
+        <div class='sylH'>ぬ</div>
+        <div class='sylK'>ヌ</div>
+      </div></td>
+    <td id='ne' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>ne</div>
+        <div class='sylH'>ね</div>
+        <div class='sylK'>ネ</div>
+      </div></td>
+    <td id='no' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>no</div>
+        <div class='sylH'>の</div>
+        <div class='sylK'>ノ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>h</th>
+    <td id='ha' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>ha</div>
+        <div class='sylH'>は</div>
+        <div class='sylK'>ハ</div>
+      </div></td>
+    <td id='hi' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>hi</div>
+        <div class='sylH'>ひ</div>
+        <div class='sylK'>ヒ</div>
+      </div></td>
+    <td id='fu' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>(fu)</div>
+        <div class='sylH'>ふ</div>
+        <div class='sylK'>フ</div>
+      </div></td>
+    <td id='he' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>he</div>
+        <div class='sylH'>へ</div>
+        <div class='sylK'>ヘ</div>
+      </div></td>
+    <td id='ho' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>ho</div>
+        <div class='sylH'>ほ</div>
+        <div class='sylK'>ホ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>m</th>
+    <td id='ma' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>ma</div>
+        <div class='sylH'>ま</div>
+        <div class='sylK'>マ</div>
+      </div></td>
+    <td id='mi' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>mi</div>
+        <div class='sylH'>み</div>
+        <div class='sylK'>ミ</div>
+      </div></td>
+    <td id='mu' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>mu</div>
+        <div class='sylH'>む</div>
+        <div class='sylK'>ム</div>
+      </div></td>
+    <td id='me' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>me</div>
+        <div class='sylH'>め</div>
+        <div class='sylK'>メ</div>
+      </div></td>
+    <td id='mo' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>mo</div>
+        <div class='sylH'>も</div>
+        <div class='sylK'>モ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>y</th>
+    <td id='ya' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>ya</div>
+        <div class='sylH'>や</div>
+        <div class='sylK'>ヤ</div>
+      </div></td>
+    <td onclick='fEmptyCell()'>
+      </td>
+    <td id='yu' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>yu</div>
+        <div class='sylH'>ゆ</div>
+        <div class='sylK'>ユ</div>
+      </div></td>
+    <td onclick='fEmptyCell()'>
+      </td>
+    <td id='yo' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>yo</div>
+        <div class='sylH'>よ</div>
+        <div class='sylK'>ヨ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>r</th>
+    <td id='ra' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>ra</div>
+        <div class='sylH'>ら</div>
+        <div class='sylK'>ラ</div>
+      </div></td>
+    <td id='ri' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>ri</div>
+        <div class='sylH'>り</div>
+        <div class='sylK'>リ</div>
+      </div></td>
+    <td id='ru' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>ru</div>
+        <div class='sylH'>る</div>
+        <div class='sylK'>ル</div>
+      </div></td>
+    <td id='re' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>re</div>
+        <div class='sylH'>れ</div>
+        <div class='sylK'>レ</div>
+      </div></td>
+    <td id='ro' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>ro</div>
+        <div class='sylH'>ろ</div>
+        <div class='sylK'>ロ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>w</th>
+    <td id='wa' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>wa</div>
+        <div class='sylH'>わ</div>
+        <div class='sylK'>ワ</div>
+      </div></td>
+    <td onclick='fEmptyCell()'>
+      </td>
+    <td onclick='fEmptyCell()'>
+      </td>
+    <td onclick='fEmptyCell()'>
+      </td>
+    <td id='wo' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>(o)</div>
+        <div class='sylH'>を</div>
+        <div class='sylK'>ヲ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th></th>
+    <td id='n' onclick='fShowDatails(this)'>
+      <div class='cellContainer'>
+        <img class='kanaImg' src=''>
+        <div class='sylR'>n</div>
+        <div class='sylH'>ん</div>
+        <div class='sylK'>ン</div>
+      </div></td>
+    <td onclick='fEmptyCell()'>
+      </td>
+    <td onclick='fEmptyCell()'>
+      </td>
+    <td onclick='fEmptyCell()'>
+      </td>
+    <td onclick='fEmptyCell()'>
+      </td>
+  </tr>
+</table>
+
+<div id='detailContainer' style='display:inline-block;margin-left:37px'>
+  <canvas id='dtl1a' width="160" height="160"></canvas>
+  <img id='dtl1' src='empty.gif'>
+  <img id='dtl2' src='empty.gif'>
+  <div><img id='dtl3' src='empty.gif'></div>
+</div>
+<div style='display:inline-block;margin: 60px 0px 0px 37px'>
+  <fieldset style='height:75px;position:relative;'>
+    <legend>&nbsp;Кана&nbsp;</legend>
+    <input type='radio' name='kanaType' id='hiragana' value='hiragana' onchange='fChangeKana(this.value)' style='margin-top:24px;'><label for='hiragana'> Хирагана &nbsp;(ひらがな)</label><br>
+    <input type='radio' name='kanaType' id='katakana' value='katakana' onchange='fChangeKana(this.value)' style='margin-top:7.3px;'><label for='katakana'> Катакана &nbsp;(カタカナ)</label>
+    <button type='button' onclick='fExchangeKanaType()' style="position:absolute;bottom:10px;right:24px;"><img src='exchange-arrow.png' style='height:20px;margin:2px 2px;vertical-align:middle'></button>
+  </fieldset>
+  <fieldset>
+    <legend>&nbsp;Озвучка&nbsp;</legend>
+    <input type='radio' name='voiceActing' id='rAudio0' value='0' onclick='fChangeVoice(this.value)'><label for='rAudio0'> голос 1</label><br>
+    <input type='radio' name='voiceActing' id='rAudio1' value='1' onclick='fChangeVoice(this.value)'><label for='rAudio1'> голос 2</label><br>
+    <input type='radio' name='voiceActing' id='rAudio2' value='2' onclick='fChangeVoice(this.value)'><label for='rAudio2'> голос 3</label><br>
+    <input type='radio' name='voiceActing' id='rAudio3' value='3' onclick='fChangeVoice(this.value)'><label for='rAudio3'> голос 4</label><br>
+      <label for='repeatNumber'>Количество повторений: </label>
+    <input type='number' id='repeatNumber' min='0' max='99' value='3' onchange='fChangeRepeat(this.value)'><br>
+      <label for='repeatPause'>Пауза между повторениями: </label>
+    <input type='number' id='repeatPause' min='0' max='10' step='0.2' value='0.8' onchange='fChangePause(this.value)'>
+      <span class='addInf' style='margin-left:4px;'> (сек)</span><br>
+      <img src='speaker.png' style='width:18px;height:18px;margin-right:5px;vertical-align:middle'><span>:</span>
+    <input type='range' id='vlmRange' min='0' max='1' step='0.1' value='0.2' oninput='fChangeVolume(this.value)' onmouseup='fChangeVolumeMouseUp()' style='width:40px;vertical-align:bottom'>
+      <span class='addInf' id='vlmShow'></span>
+    <button type='button' id='btnPlay' onclick='fPlayStop()' value='off'><div></div></button>
+  </fieldset>
+</div>
+<div style='display:inline-block;margin: 60px 0 0 25px;vertical-align:top'>
+  <fieldset style='height:75px;'>
+    <legend>&nbsp;Кана в углу&nbsp;</legend>
+    <input type='radio' name='corner' id='cornerR' value='R' onchange='fChangeCorner(this.value)'><label for='cornerR'><span style='vertical-align:sub;font-size:smaller;'> ромадзи<span></span></label><br>
+    <input type='radio' name='corner' id='cornerH' value='H' onchange='fChangeCorner(this.value)'><label for='cornerH'><span style='vertical-align:sub;font-size:smaller;'> хирагана</span></label><br>
+    <input type='radio' name='corner' id='cornerK' value='K' onchange='fChangeCorner(this.value)'><label for='cornerK'><span style='vertical-align:sub;font-size:smaller;'> катакана</span></label>
+  </fieldset>
+  <fieldset>
+    <legend>&nbsp;Разное&nbsp;</legend>
+    <input type='checkbox' name='cbHeadings' id='cbHeadings' onchange='fChangeHeadings()'><label for='cbHeadings'> показывать заголовок таблицы</label><br>
+    <input type='checkbox' name='cbGrid' id='cbGrid' onchange='fChangeGrid()'><label for='cbGrid'> показывать сетку под каной</label><br>
+    <input type='checkbox' name='cbAdjacent' id='cbAdjacent' onchange='fChangeAdjacent()'><label for='cbAdjacent'> показывать смежную кану</label>
+  </fieldset>
+</div>
+
+<audio id='audioPlayer' onended='fAudioEnded()' preload='none'>
+  <source id='srcMp3' src='audio-0/a.mp3' type='audio/mpeg'>
+  <source id='srcOgg' src='audio-0/a.ogg' type='audio/ogg'>
+  ПРЕДУПРЕЖДЕНИЕ: Ваш браузер не поддерживает тег &lt;audio&gt;
+</audio>
+</body>
+</html>

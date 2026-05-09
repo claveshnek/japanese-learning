@@ -1,0 +1,441 @@
+<!doctype html>
+<html>
+<meta charset='utf-8'>
+<title>Kana Game -basic</title>
+<link rel='stylesheet' href='reset.css'>
+<link rel='stylesheet' href='game-basic.css'>
+<script src='game-basic-eng.js' defer></script>
+<body onload='fLoad()' onunload='fUnload()'>
+
+<table>
+  <tr>
+    <th>&nbsp;</th>
+    <th>a</th>
+    <th>i</th>
+    <th>u</th>
+    <th>e</th>
+    <th>o</th>
+  </tr>
+  <tr>
+    <th>∅</th>
+    <td id='a' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>a</div>
+        <div class='sylH'>あ</div>
+        <div class='sylK'>ア</div>
+      </div></td>
+    <td id='i' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>i</div>
+        <div class='sylH'>い</div>
+        <div class='sylK'>イ</div>
+      </div></td>
+    <td id='u' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>u</div>
+        <div class='sylH'>う</div>
+        <div class='sylK'>ウ</div>
+      </div></td>
+    <td id='e' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>e</div>
+        <div class='sylH'>え</div>
+        <div class='sylK'>エ</div>
+      </div></td>
+    <td id='o' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>o</div>
+        <div class='sylH'>お</div>
+        <div class='sylK'>オ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>k</th>
+    <td id='ka' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>ka</div>
+        <div class='sylH'>か</div>
+        <div class='sylK'>カ</div>
+      </div></td>
+    <td id='ki' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>ki</div>
+        <div class='sylH'>き</div>
+        <div class='sylK'>キ</div>
+      </div></td>
+    <td id='ku' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>ku</div>
+        <div class='sylH'>く</div>
+        <div class='sylK'>ク</div>
+      </div></td>
+    <td id='ke' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>ke</div>
+        <div class='sylH'>け</div>
+        <div class='sylK'>ケ</div>
+      </div></td>
+    <td id='ko' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>ko</div>
+        <div class='sylH'>こ</div>
+        <div class='sylK'>コ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>s</th>
+    <td id='sa' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>sa</div>
+        <div class='sylH'>さ</div>
+        <div class='sylK'>サ</div>
+      </div></td>
+    <td id='shi' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>shi</div>
+        <div class='sylH'>し</div>
+        <div class='sylK'>シ</div>
+      </div></td>
+    <td id='su' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>su</div>
+        <div class='sylH'>す</div>
+        <div class='sylK'>ス</div>
+      </div></td>
+    <td id='se' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>se</div>
+        <div class='sylH'>せ</div>
+        <div class='sylK'>セ</div>
+      </div></td>
+    <td id='so' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>so</div>
+        <div class='sylH'>そ</div>
+        <div class='sylK'>ソ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>t</th>
+    <td id='ta' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>ta</div>
+        <div class='sylH'>た</div>
+        <div class='sylK'>タ</div>
+      </div></td>
+    <td id='chi' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>chi</div>
+        <div class='sylH'>ち</div>
+        <div class='sylK'>チ</div>
+      </div></td>
+    <td id='tsu' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>tsu</div>
+        <div class='sylH'>つ</div>
+        <div class='sylK'>ツ</div>
+      </div></td>
+    <td id='te' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>te</div>
+        <div class='sylH'>て</div>
+        <div class='sylK'>テ</div>
+      </div></td>
+    <td id='to' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>to</div>
+        <div class='sylH'>と</div>
+        <div class='sylK'>ト</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>n</th>
+    <td id='na' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>na</div>
+        <div class='sylH'>な</div>
+        <div class='sylK'>ナ</div>
+      </div></td>
+    <td id='ni' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>ni</div>
+        <div class='sylH'>に</div>
+        <div class='sylK'>ニ</div>
+      </div></td>
+    <td id='nu' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>nu</div>
+        <div class='sylH'>ぬ</div>
+        <div class='sylK'>ヌ</div>
+      </div></td>
+    <td id='ne' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>ne</div>
+        <div class='sylH'>ね</div>
+        <div class='sylK'>ネ</div>
+      </div></td>
+    <td id='no' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>no</div>
+        <div class='sylH'>の</div>
+        <div class='sylK'>ノ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>h</th>
+    <td id='ha' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>ha</div>
+        <div class='sylH'>は</div>
+        <div class='sylK'>ハ</div>
+      </div></td>
+    <td id='hi' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>hi</div>
+        <div class='sylH'>ひ</div>
+        <div class='sylK'>ヒ</div>
+      </div></td>
+    <td id='fu' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>(fu)</div>
+        <div class='sylH'>ふ</div>
+        <div class='sylK'>フ</div>
+      </div></td>
+    <td id='he' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>he</div>
+        <div class='sylH'>へ</div>
+        <div class='sylK'>ヘ</div>
+      </div></td>
+    <td id='ho' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>ho</div>
+        <div class='sylH'>ほ</div>
+        <div class='sylK'>ホ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>m</th>
+    <td id='ma' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>ma</div>
+        <div class='sylH'>ま</div>
+        <div class='sylK'>マ</div>
+      </div></td>
+    <td id='mi' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>mi</div>
+        <div class='sylH'>み</div>
+        <div class='sylK'>ミ</div>
+      </div></td>
+    <td id='mu' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>mu</div>
+        <div class='sylH'>む</div>
+        <div class='sylK'>ム</div>
+      </div></td>
+    <td id='me' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>me</div>
+        <div class='sylH'>め</div>
+        <div class='sylK'>メ</div>
+      </div></td>
+    <td id='mo' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>mo</div>
+        <div class='sylH'>も</div>
+        <div class='sylK'>モ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>y</th>
+    <td id='ya' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>ya</div>
+        <div class='sylH'>や</div>
+        <div class='sylK'>ヤ</div>
+      </div></td>
+    <td onclick='fEmptyCell()'>
+      </td>
+    <td id='yu' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>yu</div>
+        <div class='sylH'>ゆ</div>
+        <div class='sylK'>ユ</div>
+      </div></td>
+    <td onclick='fEmptyCell()'>
+      </td>
+    <td id='yo' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>yo</div>
+        <div class='sylH'>よ</div>
+        <div class='sylK'>ヨ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>r</th>
+    <td id='ra' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>ra</div>
+        <div class='sylH'>ら</div>
+        <div class='sylK'>ラ</div>
+      </div></td>
+    <td id='ri' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>ri</div>
+        <div class='sylH'>り</div>
+        <div class='sylK'>リ</div>
+      </div></td>
+    <td id='ru' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>ru</div>
+        <div class='sylH'>る</div>
+        <div class='sylK'>ル</div>
+      </div></td>
+    <td id='re' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>re</div>
+        <div class='sylH'>れ</div>
+        <div class='sylK'>レ</div>
+      </div></td>
+    <td id='ro' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>ro</div>
+        <div class='sylH'>ろ</div>
+        <div class='sylK'>ロ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th>w</th>
+    <td id='wa' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>wa</div>
+        <div class='sylH'>わ</div>
+        <div class='sylK'>ワ</div>
+      </div></td>
+    <td onclick='fEmptyCell()'>
+      </td>
+    <td onclick='fEmptyCell()'>
+      </td>
+    <td onclick='fEmptyCell()'>
+      </td>
+    <td id='wo' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>(o)</div>
+        <div class='sylH'>を</div>
+        <div class='sylK'>ヲ</div>
+      </div></td>
+  </tr>
+  <tr>
+    <th></th>
+    <td id='n' onmouseup='fDragEndCell(this)'>
+      <div class='cellContainer'>
+        <div class='bigKana'></div>
+        <div class='sylR'>n</div>
+        <div class='sylH'>ん</div>
+        <div class='sylK'>ン</div>
+      </div></td>
+    <td onclick='fEmptyCell()'>
+      </td>
+    <td onclick='fEmptyCell()'>
+      </td>
+    <td onclick='fEmptyCell()'>
+      </td>
+    <td onclick='fEmptyCell()'>
+      </td>
+  </tr>
+</table>
+
+<fieldset>
+  <legend>&nbsp;Kana in table&nbsp;</legend>
+  <input type='radio' name='corner' id='cornerR' value='R' onchange='fChangeCorner(this.value)'><label for='cornerR'> rōmaji</label><br>
+  <input type='radio' name='corner' id='cornerH' value='H' onchange='fChangeCorner(this.value)'><label for='cornerH'> hiragana</label><br>
+  <input type='radio' name='corner' id='cornerK' value='K' onchange='fChangeCorner(this.value)'><label for='cornerK'> katakana</label>
+</fieldset>
+<fieldset style='position:relative'>
+  <legend>&nbsp;Kana on cards&nbsp;</legend>
+  <input type='radio' name='card' id='cardR' value='R' onchange='fChangeCard(this.value)'><label for='cardR'> RŌMAJI</label><br>
+  <input type='radio' name='card' id='cardH' value='H' onchange='fChangeCard(this.value)'><label for='cardH'> HIRAGANA</label><br>
+  <input type='radio' name='card' id='cardK' value='K' onchange='fChangeCard(this.value)'><label for='cardK'> KATAKANA</label><br>
+  <input type='radio' name='card' id='cardS' value='S' onchange='fChangeCard(this.value)'><label for='cardS'> voice</label>
+  <div style='position:absolute;top:-25px;right:365px'>
+    <div id='testR' class='capR' style='display:none'></div>
+    <img id='testH' class='capH' style='display:none' src=''>
+    <img id='testK' class='capK' style='display:none' src=''>
+    <div id='testS' class='capS' style='display:none'></div>
+  </div>
+</fieldset>
+<fieldset>
+  <legend>&nbsp;Voice acting&nbsp;</legend>
+  <!-- <input type='radio' name='voiceActing' id='rAudio-1' value='-1' onclick='fChangeVoice(this.value)'><label for='rAudio-1'> no sound</label><br> -->
+  <input type='radio' name='voiceActing' id='rAudio0' value='0' onclick='fChangeVoice(this.value)'><label for='rAudio0'> voice 1</label><br>
+  <input type='radio' name='voiceActing' id='rAudio1' value='1' onclick='fChangeVoice(this.value)'><label for='rAudio1'> voice 2</label><br>
+  <input type='radio' name='voiceActing' id='rAudio2' value='2' onclick='fChangeVoice(this.value)'><label for='rAudio2'> voice 3</label><br>
+  <input type='radio' name='voiceActing' id='rAudio3' value='3' onclick='fChangeVoice(this.value)'><label for='rAudio3'> voice 4</label><br>
+    <img src='speaker.png' style='width:18px;height:18px;margin-right:5px;vertical-align:middle'><span>:</span>
+  <input type='range' id='vlmRange' min='0' max='1' step='0.1' value='0.2' oninput='fChangeVolume(this.value)' onmouseup='fChangeVolumeMouseUp()' style='width:40px;vertical-align:bottom'>
+    <span class='addInf' id='vlmShow'></span>
+</fieldset>
+<fieldset style='position:relative; display:none'>
+  <legend style='color:grey'>&nbsp;Achive of results&nbsp;</legend>
+  <div id='showArchive' style='color:grey'></div>
+  <button type='button' onclick='fClearResults()' style='position:absolute; bottom:3px; right:3px; padding:0 6px;'>Clear</button>
+</fieldset>
+
+<button type='button' id='buttonStart' onclick='fStartGame()' style='display:block; margin:5px 0 5px 450px'>Start Game</button>
+
+<audio id='audioPlayer' style='margin-top:10px' preload='none'>
+  <source id='srcMp3' src='audio-0/a.mp3' type='audio/mpeg'>
+  <source id='srcOgg' src='audio-0/a.ogg' type='audio/ogg'>
+  WARNING: Your browser does not support the audio element.
+</audio>
+
+<br clear='left'> <!-- don't delete this <br>. Otherwise it will glitch -->
+
+</body>
+</html>

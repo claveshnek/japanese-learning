@@ -1,0 +1,140 @@
+body {
+  width: 1052px;
+  color: sienna;
+  padding: 15px 0 0 15px;
+}
+
+/* -------------------------
+/   Table
+--------------------------*/
+table {
+	border: 2px outset gainsboro;
+  float: left;
+  cursor: default;
+}
+
+th {
+  display: none;
+	width: 50px;
+  padding-bottom: 5px;
+	border: 1px solid gainsboro;
+  font-weight: normal;
+}
+
+td {
+	width: 78px;
+	border: 1px solid gainsboro;
+  position: relative;
+}
+
+div.cellContainer {
+  height: 52px;
+  width: 70px;
+  border: 5px solid transparent;
+}
+
+div.bigH {
+  height: 30px;
+  width: 50px;
+  margin: 3px 0 0 2px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  color: black;
+  display: none;
+}
+
+div.bigK {
+  height: 30px;
+  width: 50px;
+  margin: 3px 0 0 2px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  color: darkblue;
+  display: none;
+}
+
+div.sylR {
+  position: absolute;
+  height: 20px;
+  bottom: 1px;
+  right: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 19px;
+  color: orange;
+  visibility: hidden;
+}
+
+div.sylH {
+  position: absolute;
+  height: 20px;
+  bottom: 0px;
+  right: 7px;
+  color: red;
+  font-size: 19px;
+  visibility: hidden;
+}
+
+div.sylK {
+  position: absolute;
+  height: 20px;
+  bottom: 0px;
+  right: 7px;
+  color: blue;
+  font-size: 19px;
+  visibility: hidden;
+}
+
+/* -------------------------
+/   Controls
+--------------------------*/
+fieldset {
+  width: 240px;
+  margin: 0 0 24px 0;
+  padding: 5px 11px 7px;
+  border: 1px groove #b1ac85;
+}
+
+span.addInf {
+  font-size:small;
+  font-style:italic;
+  color:grey;
+}
+
+input#repeatNumber {
+  width:32px;
+  text-align:center;
+  margin-top: 3px;
+}
+
+input#repeatPause {
+  width:37px;
+  padding-left:4px;
+  margin-top: 4px;
+}
+
+label#labelVolume>img {
+  width:18px;
+  height:18px;
+  margin-right:5px;
+}
+
+input#vlmRange {
+  width:40px;
+}
+
+button#btnPlay {
+  width: 50px;
+  margin: 5px 0 0 10px;
+  vertical-align: bottom;
+}
+
+button#btnPlay>div {
+  width: 22px;
+  height: 18px;
+  margin: 0 auto;
+  background-image: url('player-icons.png');
+  background-repeat: no-repeat;
+  background-position: right 0;
+}

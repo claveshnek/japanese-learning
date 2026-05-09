@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Kana Tables</title>
+  <link rel='stylesheet' href='basic/reset.css'>
+
+  <style>
+    body {
+        max-width: 1070px;
+    }
+    #navBar {    /* стиль фона под навигационными вкладками */
+      background-color: papayawhip;
+      padding-left: 10px;
+    }
+    nav>a {      /* стиль непостредственно вкладок */
+      display: inline-block;
+      min-width: 80px;
+      text-align: center;
+      font-size: 0.8em;
+      text-decoration: none;
+      color: grey;
+      padding: 5px;
+      margin: 8px 5px 0;
+      border-color: grey;
+      border-width: 2px;
+      border-style: solid solid none;
+      background-color: peachpuff;
+      border-radius: 10px 10px 0 0; }
+    a.active {    /* В активной вкладке стиль немного другой, чем в пассивных */
+      background-color: white; }
+    #firstGame {
+      margin-left: 73px; }
+  </style>
+
+  <script>
+    // Определяем, какой из интерфейсов будет показываться при загрузке и перезагрузке.
+    // Нельзя удовлетвориться простым прописание значения в свойстве src тега iframe,
+    // поскольку содержимое iframe при перезагрузке сохраняется.
+    function fInitialization() {
+      document.getElementsByTagName('iframe')[0].src='basic/table-basic.html';
+      console.log('Initialization is done');
+    }
+    // изменяем местоположение стиля "активной вкладки"
+    function changeTab(elem) {
+      var arList = document.getElementById('navBar').getElementsByTagName('a');
+      for (var i=0; i<arList.length; i++)
+        if (arList[i] != elem)
+          arList[i].className = '';
+        else
+          elem.className = 'active';
+    }
+  </script>
+
+</head>
+<body onLoad='fInitialization()'>
+
+<!-- Панель навигации -->
+<nav id='navBar'>
+  <a href='basic/table-basic.html' target='mainFrame' onclick='changeTab(this);' class='active'>таблица-базовая</a>
+  <a href='tenten/table-tenten.html' target='mainFrame' onclick='changeTab(this);'>таблица-дакутэн</a>
+  <a href='comb/table-comb.html' target='mainFrame' onclick='changeTab(this);'>таблица-диграфы</a>
+
+  <a href='basic/game-basic.html' target='mainFrame' onclick='changeTab(this);' id='firstGame'>игра-базовая</a>
+  <a href='tenten/game-tenten.html' target='mainFrame' onclick='changeTab(this);'>игра-дакутэн</a>
+  <a href='comb/game-comb.html' target='mainFrame' onclick='changeTab(this);'>игра-диграфы</a>  
+</nav>
+
+<!-- Плавающий фрейм, внутри которого выводим другие страницы. В нашем случае это различные интерфейсы. -->
+<iframe name='mainFrame' src='' width='1070px' height='760px' style='border-style:none; margin:30px 5px'>
+  <p>Your browser does not support iframes.</p>
+</iframe>
+
+</body>
+</html>
+
+<!--
+Примечание: если переменным, сохраняемым в localStorage, дать на разных страницах одни и те же имена, то соответствующие программы будут исправно работать по отдельности, однако возникнут проблемы при их объединении под общей шабкой (когда они поочерёдно запускаются внутри одного iframe). 
+-->

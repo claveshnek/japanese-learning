@@ -1,0 +1,421 @@
+{
+  "A01": {
+    "id": "A01",
+    "series": "A",
+    "source": "GENKI I",
+    "lesson": "Lesson 1",
+    "title": "あたらしいともだち — New Friends",
+    "dialogueNum": "I",
+    "audioFiles": ["A01.mp3","A01-01.mp3","A01-02.mp3","A01-03.mp3","A01-04.mp3"],
+    "lines": [
+      {"speaker":"メアリー","jp":"すみません。いま なんじですか。","romaji":"Sumimasen. Ima nanji desu ka.","en":"Excuse me. What time is it now?","ru":"Извините. Который сейчас час?"},
+      {"speaker":"たけし","jp":"じゅうにじはんです。","romaji":"Juuniji han desu.","en":"It's half past twelve.","ru":"Половина первого."},
+      {"speaker":"メアリー","jp":"ありがとうございます。","romaji":"Arigatoo gozaimasu.","en":"Thank you.","ru":"Спасибо."},
+      {"speaker":"たけし","jp":"いいえ。","romaji":"Iie.","en":"You're welcome.","ru":"Не за что."}
+    ]
+  },
+  "A02": {
+    "id": "A02",
+    "series": "A",
+    "source": "GENKI I",
+    "lesson": "Lesson 1",
+    "title": "あたらしいともだち — New Friends",
+    "dialogueNum": "II",
+    "audioFiles": ["A02.mp3","A02-01.mp3","A02-02.mp3","A02-03.mp3","A02-04.mp3"],
+    "lines": [
+      {"speaker":"たけし","jp":"あの、りゅうがくせいですか。","romaji":"Ano, ryuugakusee desu ka.","en":"Um... are you an international student?","ru":"Эм... вы иностранный студент?"},
+      {"speaker":"メアリー","jp":"ええ、アリゾナだいがくの がくせいです。","romaji":"Ee, Arizona daigaku no gakusee desu.","en":"Yes, I am a student at the University of Arizona.","ru":"Да, я студентка Аризонского университета."},
+      {"speaker":"たけし","jp":"そうですか。せんこうは なんですか。","romaji":"Soo desu ka. Senkoo wa nan desu ka.","en":"I see. What is your major?","ru":"Вот как. Какая у вас специальность?"},
+      {"speaker":"メアリー","jp":"にほんごです。いま にねんせいです。","romaji":"Nihongo desu. Ima ninensee desu.","en":"Japanese. I am a sophomore now.","ru":"Японский язык. Сейчас я на втором курсе."}
+    ]
+  },
+  "A03": {
+    "id": "A03", "series": "A", "source": "GENKI I", "lesson": "Lesson 2",
+    "title": "かいもの — Shopping", "dialogueNum": "I",
+    "audioFiles": ["A03.mp3","A03-01.mp3","A03-02.mp3","A03-03.mp3","A03-04.mp3","A03-05.mp3","A03-06.mp3","A03-07.mp3","A03-08.mp3","A03-09.mp3","A03-10.mp3","A03-11.mp3","A03-12.mp3","A03-13.mp3"],
+    "lines": [
+      {"speaker":"メアリー","jp":"すみません。これは いくらですか。","romaji":"Sumimasen. Kore wa ikura desu ka.","en":"Excuse me. How much is this?","ru":"Извините. Сколько это стоит?"},
+      {"speaker":"みせのひと","jp":"さんぜんえんです。","romaji":"Sanzen en desu.","en":"It is 3,000 yen.","ru":"Три тысячи йен."},
+      {"speaker":"メアリー","jp":"たかいですね。あのとけいは いくらですか。","romaji":"Takai desu ne. Ano tokee wa ikura desu ka.","en":"It's expensive. How much is that watch?","ru":"Дорого. А сколько стоят те часы?"},
+      {"speaker":"みせのひと","jp":"さんぜんごひゃくえんです。","romaji":"Sanzen gohyaku en desu.","en":"That is 3,500 yen.","ru":"Три тысячи пятьсот йен."},
+      {"speaker":"メアリー","jp":"じゃあ、あれは。","romaji":"Jaa, are wa.","en":"I see. That is expensive, too.","ru":"Хм, тоже дорого."},
+      {"speaker":"みせのひと","jp":"あれは せんはっぴゃくえんです。","romaji":"Are wa senhappyaku en desu.","en":"This is 1,800 yen.","ru":"Вон те — тысяча восемьсот йен."},
+      {"speaker":"メアリー","jp":"じゃあ、そのとけいをください。","romaji":"Jaa, sono tokee o kudasai.","en":"Then, I'll take that watch.","ru":"Тогда дайте мне те часы."},
+      {"speaker":"しらないひと","jp":"これは だれの さいふですか。","romaji":"Kore wa dare no saifu desu ka.","en":"Whose wallet is this?","ru":"Чей это кошелёк?"},
+      {"speaker":"メアリー","jp":"わたしの さいふです。ありがとう ございます。","romaji":"Watashi no saifu desu. Arigatoo gozaimasu.","en":"It's my wallet. Thank you very much.","ru":"Это мой кошелёк. Большое спасибо."}
+    ]
+  },
+  "A04": {
+    "id": "A04", "series": "A", "source": "GENKI I", "lesson": "Lesson 2",
+    "title": "かいもの — Shopping", "dialogueNum": "II",
+    "audioFiles": ["A04.mp3","A04-01.mp3","A04-02.mp3","A04-03.mp3","A04-04.mp3","A04-05.mp3","A04-06.mp3","A04-07.mp3","A04-08.mp3","A04-09.mp3","A04-10.mp3","A04-11.mp3","A04-12.mp3","A04-13.mp3","A04-14.mp3","A04-15.mp3"],
+    "lines": [
+      {"speaker":"ウエートレス","jp":"いらっしゃいませ。メニューをどうぞ。","romaji":"Irasshaimase. Menyuu o doozo.","en":"Welcome. Here's the menu.","ru":"Добро пожаловать. Вот меню."},
+      {"speaker":"メアリー","jp":"ありがとう。これは なんですか。","romaji":"Arigatoo. Kore wa nan desu ka.","en":"Thank you. What is this?","ru":"Спасибо. А что это?"},
+      {"speaker":"ウエートレス","jp":"どれですか。ああ、とんかつです。","romaji":"Dore desu ka. Aa, tonkatsu desu.","en":"Which one? Oh, it is tonkatsu.","ru":"Что именно? А, это тонкацу."},
+      {"speaker":"メアリー","jp":"とんかつ？ さかなですか。","romaji":"Tonkatsu? Sakana desu ka.","en":"Tonkatsu? Is it fish?","ru":"Тонкацу? Это рыба?"},
+      {"speaker":"ウエートレス","jp":"いいえ、さかなじゃないです。にくです。おいしいですよ。","romaji":"Iie, sakana ja nai desu. Niku desu. Oishii desu yo.","en":"No, it is not fish. It is meat. It is delicious.","ru":"Нет, это не рыба. Это мясо. Очень вкусно."},
+      {"speaker":"メアリー","jp":"じゃあ、これを おねがいします。","romaji":"Jaa, kore o onegaishimasu.","en":"Then, I'll have this.","ru":"Тогда я возьму это."},
+      {"speaker":"メアリー","jp":"すみません。トイレは どこですか。","romaji":"Sumimasen. Toire wa doko desu ka.","en":"Excuse me. Where is the restroom?","ru":"Извините. Где туалет?"},
+      {"speaker":"ウエートレス","jp":"あそこです。","romaji":"Asoko desu.","en":"It is over there.","ru":"Вон там."},
+      {"speaker":"メアリー","jp":"ありがとう ございます。","romaji":"Arigatoo gozaimasu.","en":"Thank you very much.","ru":"Большое спасибо."}
+    ]
+  },
+  "A05a": {
+    "id": "A05a", "series": "A", "source": "GENKI I", "lesson": "Lesson 3",
+    "title": "デートの約束 — Making a Date", "dialogueNum": "I",
+    "audioFiles": ["A05a.mp3","A05a-01.mp3","A05a-02.mp3","A05a-03.mp3","A05a-04.mp3"],
+    "lines": [
+      {"speaker":"たけし","jp":"メアリーさん、しゅうまつはたいていなにをしますか。","romaji":"Mearii-san, shuumatsu wa taitee nani o shimasu ka.","en":"Mary, what do you usually do on the weekend?","ru":"Мэри, что вы обычно делаете на выходных?"},
+      {"speaker":"メアリー","jp":"そうですね。たいていうちでべんきょうします。ときどきえいがをみます。","romaji":"Soo desu ne. Taitee uchi de benkyoo shimasu. Tokidoki eiga o mimasu.","en":"Let's see. I usually study at home. I sometimes see movies.","ru":"Ну... Обычно учусь дома. Иногда смотрю фильмы."},
+      {"speaker":"たけし","jp":"そうですか。じゃあ、きんようびにえいがをみませんか。","romaji":"Soo desu ka. Jaa, kin-yoobi ni eiga o mimasen ka.","en":"I see. Would you like to see a movie on Friday?","ru":"Понятно. Не хотите посмотреть фильм в пятницу?"},
+      {"speaker":"メアリー","jp":"きんようびはちょっと……。","romaji":"Kin-yoobi wa chotto...","en":"Friday is not a good day.","ru":"В пятницу не очень удобно..."},
+      {"speaker":"たけし","jp":"じゃあ、どようびはどうですか。","romaji":"Jaa, do-yoobi wa doo desu ka.","en":"Then, how about Saturday?","ru":"Тогда как насчёт субботы?"},
+      {"speaker":"メアリー","jp":"いいですね。","romaji":"Ii desu ne.","en":"That's fine.","ru":"Отлично."}
+    ]
+  },
+  "A05b": {
+    "id": "A05b", "series": "A", "source": "GENKI I", "lesson": "Lesson 3",
+    "title": "デートの約束 — Making a Date", "dialogueNum": "II",
+    "audioFiles": ["A05b.mp3","A05b-01.mp3","A05b-02.mp3","A05b-03.mp3","A05b-04.mp3","A05b-05.mp3","A05b-06.mp3"],
+    "lines": [
+      {"speaker":"メアリー","jp":"おはようございます。","romaji":"Ohayoo gozaimasu.","en":"Good morning.","ru":"Доброе утро."},
+      {"speaker":"おかあさん","jp":"おはよう。きょうはやいですね。","romaji":"Ohayoo. Kyoo wa hayai desu ne.","en":"Good morning. You are early!","ru":"Доброе утро. Рано сегодня!"},
+      {"speaker":"メアリー","jp":"ええ、きょうはきょうとにいきます。きょうとでえいがをみます。","romaji":"Ee, kyoo wa Kyooto ni ikimasu. Kyooto de eiga o mimasu.","en":"Yes, I'm going to Kyoto today. I will see a movie there.","ru":"Да, еду в Киото. Буду смотреть фильм."},
+      {"speaker":"おかあさん","jp":"いいですね。なんじごろにかえりますか。","romaji":"Ii desu ne. Nanji goro ni kaerimasu ka.","en":"Good. When will you come back?","ru":"Здорово. Во сколько вернётесь?"},
+      {"speaker":"メアリー","jp":"くじごろにかえります。","romaji":"Kuji goro ni kaerimasu.","en":"Around nine.","ru":"Около девяти."},
+      {"speaker":"おかあさん","jp":"ゆうごはんは？","romaji":"Yuugohan wa?","en":"How about dinner?","ru":"А ужин?"},
+      {"speaker":"メアリー","jp":"いりません。","romaji":"Irimasen.","en":"I won't need it.","ru":"Не нужен."},
+      {"speaker":"おかあさん","jp":"そう。じゃあ、いってらっしゃい。","romaji":"Soo. Jaa, itterasshai.","en":"I see. Have a nice day.","ru":"Понятно. Счастливого пути."},
+      {"speaker":"メアリー","jp":"いってきます。","romaji":"Ittekimasu.","en":"Good bye.","ru":"Я пошла."}
+    ]
+  },
+  "A06": {
+    "id": "A06", "series": "A", "source": "GENKI I", "lesson": "Lesson 4",
+    "title": "初めてのデート — The First Date", "dialogueNum": "I",
+    "audioFiles": ["A06.mp3","A06-01.mp3","A06-02.mp3","A06-03.mp3","A06-04.mp3","A06-05.mp3","A06-06.mp3","A06-07.mp3","A06-08.mp3","A06-09.mp3","A06-10.mp3","A06-11.mp3","A06-12.mp3","A06-13.mp3"],
+    "lines": [
+      {"speaker":"メアリー","jp":"すみません。マクドナルドはどこですか。","romaji":"Sumimasen. Makudonarudo wa doko desu ka.","en":"Excuse me. Where is McDonald's?","ru":"Извините. Где Макдоналдс?"},
+      {"speaker":"ひと","jp":"あそこにデパートがありますね。マクドナルドはデパートのまえです。","romaji":"Asoko ni depaato ga arimasu ne. Makudonarudo wa depaato no mae desu.","en":"There is a department store over there. McDonald's is in front of it.","ru":"Вон там универмаг. Макдоналдс перед ним."},
+      {"speaker":"メアリー","jp":"ありがとうございます。","romaji":"Arigatoo gozaimasu.","en":"Thank you.","ru":"Спасибо."}
+    ]
+  },
+  "A07": {
+    "id": "A07", "series": "A", "source": "GENKI I", "lesson": "Lesson 4",
+    "title": "初めてのデート — The First Date", "dialogueNum": "II",
+    "audioFiles": ["A07.mp3","A07-01.mp3","A07-02.mp3","A07-03.mp3","A07-04.mp3","A07-05.mp3","A07-06.mp3","A07-07.mp3","A07-08.mp3","A07-09.mp3","A07-10.mp3","A07-11.mp3","A07-12.mp3","A07-13.mp3","A07-14.mp3","A07-15.mp3","A07-16.mp3","A07-17.mp3"],
+    "lines": [
+      {"speaker":"メアリー","jp":"ただいま。","romaji":"Tadaima.","en":"I'm home.","ru":"Я дома."},
+      {"speaker":"おとうさん","jp":"おかえりなさい。えいがはどうでしたか。","romaji":"Okaerinasai. Eiga wa doo deshita ka.","en":"Welcome home. How was the movie?","ru":"С возвращением. Как фильм?"},
+      {"speaker":"メアリー","jp":"みませんでした。たけしさんはきませんでした。","romaji":"Mimasen deshita. Takeshi-san wa kimasen deshita.","en":"I didn't see it. Takeshi didn't come.","ru":"Не смотрела. Такэси не пришёл."},
+      {"speaker":"おとうさん","jp":"あ、どうして？","romaji":"A, dooshite?","en":"Oh, why?","ru":"А, почему?"},
+      {"speaker":"メアリー","jp":"わかりません。だから、ひとりで本屋とお寺にいきました。","romaji":"Wakarimasen. Dakara, hitori de hon-ya to o-tera ni ikimashita.","en":"I don't know. So, I went to a bookstore and a temple alone.","ru":"Не знаю. Поэтому пошла одна в книжный и в храм."},
+      {"speaker":"おとうさん","jp":"人がたくさんいましたか。","romaji":"Hito ga takusan imashita ka.","en":"Were there a lot of people?","ru":"Там было много людей?"},
+      {"speaker":"メアリー","jp":"はい。お寺で写真をたくさんとりました。デパートにもいきました。おみやげです。","romaji":"Hai. O-tera de shashin o takusan torimashita. Depaato ni mo ikimashita. Omiyage desu.","en":"Yes. I took many pictures at the temple. I also went to a department store. Here's a souvenir.","ru":"Да. В храме сделала много фото. Ходила в универмаг. Вот сувенир."},
+      {"speaker":"おとうさん","jp":"ありがとう。","romaji":"Arigatoo.","en":"Thank you.","ru":"Спасибо."}
+    ]
+  },
+  "A08": {
+    "id": "A08", "series": "A", "source": "GENKI I", "lesson": "Lesson 4",
+    "title": "初めてのデート — The First Date", "dialogueNum": "III",
+    "audioFiles": ["A08.mp3","A08-01.mp3","A08-02.mp3","A08-03.mp3","A08-04.mp3","A08-05.mp3","A08-06.mp3","A08-07.mp3","A08-08.mp3","A08-09.mp3"],
+    "lines": [
+      {"speaker":"メアリー","jp":"あっ、たけしさん。きのう来ませんでしたね。","romaji":"Ah, Takeshi-san. Kinoo kimasen deshita ne.","en":"Oh, Takeshi. You didn't come yesterday.","ru":"А, Такэси. Вы вчера не пришли."},
+      {"speaker":"たけし","jp":"行きましたよ。モスバーガーの前で一時間待ちました。","romaji":"Ikimashita yo. Mosu baagaa no mae de ichijikan machimashita.","en":"I went there. I waited one hour in front of Mos Burger.","ru":"Я приходил! Ждал час перед Мос Бургером."},
+      {"speaker":"メアリー","jp":"モスバーガーじゃないですよ。マクドナルドですよ。","romaji":"Mosu baagaa ja nai desu yo. Makudonarudo desu yo.","en":"Not Mos Burger. McDonald's!","ru":"Не Мос Бургер! Макдоналдс!"},
+      {"speaker":"たけし","jp":"マクドナルド……ごめんなさい！","romaji":"Makudonarudo... gomen nasai!","en":"McDonald's... I'm sorry!","ru":"Макдоналдс... Простите!"}
+    ]
+  },
+  "A09": {
+    "id": "A09", "series": "A", "source": "GENKI I", "lesson": "Lesson 5",
+    "title": "沖縄旅行 — A Trip to Okinawa", "dialogueNum": "I",
+    "audioFiles": ["A09.mp3","A09-01.mp3","A09-02.mp3","A09-03.mp3","A09-04.mp3","A09-05.mp3","A09-06.mp3","A09-07.mp3","A09-08.mp3","A09-09.mp3","A09-10.mp3","A09-11.mp3","A09-12.mp3","A09-13.mp3","A09-14.mp3","A09-15.mp3","A09-16.mp3","A09-17.mp3","A09-18.mp3","A09-19.mp3","A09-20.mp3","A09-21.mp3"],
+    "lines": [
+      {"speaker":"ロバート","jp":"いいてんきですね。","romaji":"Ii tenki desu ne.","en":"Nice weather.","ru":"Хорошая погода."},
+      {"speaker":"けん","jp":"ええ。でも、ちょっとあついですね。","romaji":"Ee. Demo, chotto atsui desu ne.","en":"Yes. But it is a little hot.","ru":"Да. Но немного жарко."},
+      {"speaker":"ロバート","jp":"ええ。きれいなうみですね。","romaji":"Ee. Kiree na umi desu ne.","en":"Yes. Beautiful sea!","ru":"Да. Красивое море!"},
+      {"speaker":"けん","jp":"およぎましょう。","romaji":"Oyogimashoo.","en":"Let's swim.","ru":"Давайте поплаваем."},
+      {"speaker":"けん","jp":"ロバートさんはどんなスポーツがすきですか。","romaji":"Robaato-san wa donna supootsu ga suki desu ka.","en":"What sports do you like, Robert?","ru":"Какой спорт вам нравится, Роберт?"},
+      {"speaker":"ロバート","jp":"サーフィンがすきです。あした一緒にやりましょうか。","romaji":"Saafin ga suki desu. Ashita issho ni yarimashoo ka.","en":"I like surfing. Shall we do it together tomorrow?","ru":"Сёрфинг. Давайте завтра вместе?"},
+      {"speaker":"けん","jp":"でも、むずかしくないですか。","romaji":"Demo, muzukashiku nai desu ka.","en":"But isn't it difficult?","ru":"Но это не трудно?"},
+      {"speaker":"ロバート","jp":"いいえ。","romaji":"Iie.","en":"No.","ru":"Нет."}
+    ]
+  },
+  "A10": {
+    "id": "A10", "series": "A", "source": "GENKI I", "lesson": "Lesson 5",
+    "title": "沖縄旅行 — A Trip to Okinawa", "dialogueNum": "II",
+    "audioFiles": ["A10.mp3","A10-01.mp3","A10-02.mp3","A10-03.mp3","A10-04.mp3","A10-05.mp3","A10-06.mp3","A10-07.mp3","A10-08.mp3","A10-09.mp3","A10-10.mp3","A10-11.mp3","A10-12.mp3","A10-13.mp3"],
+    "lines": [
+      {"speaker":"ロバート","jp":"すみません。はがきは、イギリスまでいくらですか。","romaji":"Sumimasen. Hagaki wa, Igirisu made ikura desu ka.","en":"Excuse me. How much is a postcard to Britain?","ru":"Извините. Сколько стоит открытка до Великобритании?"},
+      {"speaker":"ゆうびんきょくのひと","jp":"ななじゅうえんです。","romaji":"Nanajuu en desu.","en":"70 yen.","ru":"Семьдесят йен."},
+      {"speaker":"ロバート","jp":"じゃあ、ななじゅうえんのきってをにまいと、ごじゅうえんのきってをいちまいください。","romaji":"Jaa, nanajuu en no kitte o nimai to, gojuu en no kitte o ichimai kudasai.","en":"Then, two 70-yen stamps and one 50-yen stamp, please.","ru":"Тогда две марки по 70 йен и одну по 50, пожалуйста."}
+    ]
+  },
+  "A13": {
+    "id": "A13", "series": "A", "source": "GENKI I", "lesson": "Lesson 5",
+    "title": "沖縄旅行 — A Trip to Okinawa", "dialogueNum": "III",
+    "audioFiles": ["A13.mp3","A13-01.mp3","A13-02.mp3","A13-03.mp3","A13-04.mp3","A13-05.mp3","A13-06.mp3","A13-07.mp3","A13-08.mp3","A13-09.mp3","A13-10.mp3","A13-11.mp3","A13-12.mp3","A13-13.mp3"],
+    "lines": [
+      {"speaker":"たけし","jp":"ロバートさん、はがき、ありがとう。旅行は楽しかったですか。","romaji":"Robaato-san, hagaki, arigatoo. Ryokoo wa tanoshikatta desu ka.","en":"Robert, thanks for the postcard. Did you enjoy the trip?","ru":"Роберт, спасибо за открытку. Путешествие было хорошим?"},
+      {"speaker":"ロバート","jp":"ええ。沖縄の海はすごくきれいでしたよ。","romaji":"Ee. Okinawa no umi wa sugoku kiree deshita yo.","en":"Yes. The sea in Okinawa was very beautiful.","ru":"Да. Море на Окинаве было очень красивым."},
+      {"speaker":"たけし","jp":"よかったですね。ぼくも海が大好きです。飛行機の切符は高かったですか。","romaji":"Yokatta desu ne. Boku mo umi ga daisuki desu. Hikooki no kippu wa takakatta desu ka.","en":"Good. I like the sea too. Was the airline ticket expensive?","ru":"Здорово. Я тоже люблю море. Билет на самолёт был дорогим?"},
+      {"speaker":"ロバート","jp":"いいえ、あまり高くなかったです。たけしさんのデートはどうでしたか。","romaji":"Iie, amari takaku nakatta desu. Takeshi-san no deeto wa doo deshita ka.","en":"No, not so expensive. How was your date, Takeshi?","ru":"Нет, не очень. А как ваше свидание, Такэси?"},
+      {"speaker":"たけし","jp":"……","romaji":"......","en":"...","ru":"..."}
+    ]
+  },
+  "A15": {
+    "id": "A15", "series": "A", "source": "GENKI I", "lesson": "Lesson 6",
+    "title": "ロバートさんの一日 — A Day in Robert's Life", "dialogueNum": "I-III",
+    "audioFiles": ["A15.mp3","A15-01.mp3","A15-02.mp3","A15-03.mp3","A15-04.mp3","A15-05.mp3","A15-06.mp3","A15-07.mp3","A15-08.mp3","A15-09.mp3","A15-10.mp3","A15-11.mp3","A15-12.mp3","A15-13.mp3","A15-14.mp3","A15-15.mp3","A15-16.mp3","A15-17.mp3","A15-18.mp3","A15-19.mp3","A15-20.mp3","A15-21.mp3"],
+    "lines": [
+      {"speaker":"山下先生","jp":"ロバートさん、次のページを読んでください。","romaji":"Robaato-san, tsugi no peeji o yonde kudasai.","en":"Robert, please read the next page.","ru":"Роберт, прочитайте следующую страницу."},
+      {"speaker":"山下先生","jp":"ロバートさん、起きてください。じゅぎょうちゅうにねてはいけません。","romaji":"Robaato-san, okite kudasai. Jugyoochuu ni nete wa ikemasen.","en":"Robert, wake up. You cannot sleep in class.","ru":"Роберт, проснитесь. На уроке спать нельзя."},
+      {"speaker":"ロバート","jp":"先生、すみません。教科書を忘れました。","romaji":"Sensee, sumimasen. Kyookasho o wasuremashita.","en":"Teacher, I'm sorry. I forgot the textbook.","ru":"Учитель, простите. Я забыл учебник."},
+      {"speaker":"山下先生","jp":"教科書を持ってきてください。毎日使いますよ。","romaji":"Kyookasho o motte kite kudasai. Mainichi tsukaimasu yo.","en":"Please bring your textbook. We use it every day.","ru":"Приносите учебник. Мы им пользуемся каждый день."},
+      {"speaker":"ロバート","jp":"わかりました。すみません。","romaji":"Wakarimashita. Sumimasen.","en":"I understand. I'm sorry.","ru":"Понял. Извините."},
+      {"speaker":"スー","jp":"ロバートさん、今日は大変でしたね。","romaji":"Robaato-san, kyoo wa taihen deshita ne.","en":"Robert, you had a hard time today.","ru":"Роберт, тяжёлый день, да?"},
+      {"speaker":"スー","jp":"ロバートさん、あしたテストがありますよ。","romaji":"Robaato-san, ashita tesuto ga arimasu yo.","en":"Robert, there's a test tomorrow.","ru":"Роберт, завтра тест."},
+      {"speaker":"ロバート","jp":"ほんとうですか。","romaji":"Hontoo desu ka.","en":"Really?","ru":"Правда?"},
+      {"speaker":"ロバート","jp":"じゃあ、今日は早く帰って、勉強します。","romaji":"Jaa, kyoo wa hayaku kaette, benkyoo shimasu.","en":"Well, I'll go home early and study.","ru":"Тогда вернусь рано и буду учиться."},
+      {"speaker":"おばあさん","jp":"あの、すみません。このバスは市民病院へ行きますか。","romaji":"Ano, sumimasen. Kono basu wa shimin byooin e ikimasu ka.","en":"Excuse me. Does this bus go to the city hospital?","ru":"Извините. Этот автобус едет в городскую больницу?"},
+      {"speaker":"ロバート","jp":"はい、行きます。ここにすわってください。","romaji":"Hai, ikimasu. Koko ni suwatte kudasai.","en":"Yes. Please sit here.","ru":"Да. Садитесь сюда."},
+      {"speaker":"おばあさん","jp":"いいえ、すぐおりますから。","romaji":"Iie, sugu orimasu kara.","en":"No, I'll get off soon.","ru":"Нет, я скоро выхожу."},
+      {"speaker":"ロバート","jp":"そうですか。じゃあ、かばんを持ちましょうか。","romaji":"Soo desu ka. Jaa, kaban o mochimashoo ka.","en":"Shall I carry your bag?","ru":"Давайте понесу вашу сумку?"},
+      {"speaker":"おばあさん","jp":"ありがとうございます。","romaji":"Arigatoo gozaimasu.","en":"Thank you.","ru":"Спасибо."}
+    ]
+  },
+  "A16a": {
+    "id": "A16a", "series": "A", "source": "GENKI I", "lesson": "Lesson 7",
+    "title": "家族の写真 — Family Picture", "dialogueNum": "I",
+    "audioFiles": ["A16a.mp3","A16a-01.mp3","A16a-02.mp3","A16a-03.mp3","A16a-04.mp3","A16a-05.mp3","A16a-06.mp3","A16a-07.mp3"],
+    "lines": [
+      {"speaker":"みちこ","jp":"これはスーさんの家族の写真ですか。","romaji":"Kore wa Suu-san no kazoku no shashin desu ka.","en":"Is this your family picture, Sue?","ru":"Это фото вашей семьи, Сью?"},
+      {"speaker":"スー","jp":"ええ。","romaji":"Ee.","en":"Yes.","ru":"Да."},
+      {"speaker":"みちこ","jp":"高校のときはめがねをかけていましたね。","romaji":"Kookoo no toki wa megane o kakete imashita ne.","en":"You wore glasses in high school.","ru":"В школе вы носили очки."},
+      {"speaker":"スー","jp":"これはおとうさんです。アメリカの会社に勤めています。","romaji":"Kore wa otoosan desu. Amerika no kaisha ni tsutomete imasu.","en":"This is my father. He works for an American company.","ru":"Это папа. Работает в американской компании."},
+      {"speaker":"みちこ","jp":"背が高くて、かっこいいですね。これはおねえさんですか。","romaji":"Se ga takakute, kakkoii desu ne. Kore wa oneesan desu ka.","en":"He is tall and good-looking. Is this your sister?","ru":"Высокий и красивый. Это ваша сестра?"},
+      {"speaker":"スー","jp":"ええ、姉は結婚しています。今ソウルに住んでいます。子どもが一人います。","romaji":"Ee, ane wa kekkon shite imasu. Ima Souru ni sunde imasu. Kodomo ga hitori imasu.","en":"Yes, she is married. She lives in Seoul now. She has one child.","ru":"Да, она замужем. Живёт в Сеуле. Один ребёнок."},
+      {"speaker":"みちこ","jp":"ねこがいますね。でも、ちょっと太っていますね。","romaji":"Neko ga imasu ne. Demo, chotto futotte imasu ne.","en":"There is a cat. But he is a little fat.","ru":"Есть кот. Но немного толстый."},
+      {"speaker":"スー","jp":"ええ、よく食べますから。","romaji":"Ee, yoku tabemasu kara.","en":"Yes, because he eats a lot.","ru":"Да, много ест."}
+    ]
+  },
+  "A16b": {
+    "id": "A16b", "series": "A", "source": "GENKI I", "lesson": "Lesson 7",
+    "title": "家族の写真 — Family Picture", "dialogueNum": "II",
+    "audioFiles": ["A16b.mp3","A16b-01.mp3","A16b-02.mp3","A16b-03.mp3","A16b-04.mp3","A16b-05.mp3","A16b-06.mp3","A16b-07.mp3","A16b-08.mp3","A16b-09.mp3","A16b-10.mp3","A16b-11.mp3","A16b-12.mp3","A16b-13.mp3","A16b-14.mp3","A16b-15.mp3","A16b-16.mp3","A16b-17.mp3","A16b-18.mp3","A16b-19.mp3","A16b-20.mp3"],
+    "lines": [
+      {"speaker":"ロバート","jp":"もしもし、みちこさん、今何をしていますか。","romaji":"Moshi moshi, Michiko-san, ima nani o shite imasu ka.","en":"Hello, Michiko, what are you doing now?","ru":"Алло, Митико, что делаете?"},
+      {"speaker":"みちこ","jp":"別に何もしていません。今、スーさんの写真を見ています。","romaji":"Betsu ni nani mo shite imasen. Ima, Suu-san no shashin o mite imasu.","en":"Nothing much. I'm looking at Sue's pictures.","ru":"Ничего особенного. Смотрю фото Сью."},
+      {"speaker":"ロバート","jp":"そうですか。おもしろいDVDを借りましたから、よかったら見に来ませんか。","romaji":"Soo desu ka. Omoshiroi DVD o karimashita kara, yokattara mi ni kimasen ka.","en":"I see. I borrowed a funny DVD. Want to come see it?","ru":"Понятно. Я взял интересный DVD. Не хотите прийти посмотреть?"},
+      {"speaker":"みちこ","jp":"いいですね。スーさんも一緒に行ってもいいですか。","romaji":"Ii desu ne. Suu-san mo issho ni itte mo ii desu ka.","en":"That sounds good. Can Sue come too?","ru":"Здорово. Можно Сью тоже взять?"},
+      {"speaker":"ロバート","jp":"もちろん。","romaji":"Mochiron.","en":"Of course.","ru":"Конечно."},
+      {"speaker":"みちこ","jp":"じゃあ、すぐ行きます。","romaji":"Jaa, sugu ikimasu.","en":"We'll come right now.","ru":"Тогда мы сейчас придём."}
+    ]
+  },
+  "A17": {
+    "id": "A17", "series": "A", "source": "GENKI I", "lesson": "Lesson 8",
+    "title": "バーベキュー — Barbecue", "dialogueNum": "I",
+    "audioFiles": ["A17.mp3","A17-01.mp3","A17-02.mp3","A17-03.mp3","A17-04.mp3","A17-05.mp3","A17-06.mp3","A17-07.mp3","A17-08.mp3","A17-09.mp3","A17-10.mp3","A17-11.mp3","A17-12.mp3","A17-13.mp3","A17-14.mp3","A17-15.mp3","A17-16.mp3","A17-17.mp3","A17-18.mp3","A17-19.mp3","A17-20.mp3","A17-21.mp3"],
+    "lines": [
+      {"speaker":"みちこ","jp":"たけしさん、あしたバーベキューをしませんか。","romaji":"Takeshi-san, ashita baabekyuu o shimasen ka.","en":"Takeshi, shall we have a barbecue tomorrow?","ru":"Такэси, устроим завтра барбекю?"},
+      {"speaker":"たけし","jp":"いいですね。だれがきますか。","romaji":"Ii desu ne. Dare ga kimasu ka.","en":"That's nice. Who will come?","ru":"Отлично. Кто придёт?"},
+      {"speaker":"みちこ","jp":"スーさんとロバートさんがきます。メアリーさんも来ると思います。","romaji":"Suu-san to Robaato-san ga kimasu. Mearii-san mo kuru to omoimasu.","en":"Sue and Robert will come. I think Mary will come too.","ru":"Сью и Роберт. Думаю, Мэри тоже."},
+      {"speaker":"たけし","jp":"けんさんは？","romaji":"Ken-san wa?","en":"How about Ken?","ru":"А Кэн?"},
+      {"speaker":"みちこ","jp":"けんさんはアルバイトがあると言っていました。","romaji":"Ken-san wa arubaito ga aru to itte imashita.","en":"Ken said he had a part-time job.","ru":"Кэн сказал, у него подработка."},
+      {"speaker":"たけし","jp":"ざんねんですね。何か持っていきましょうか。","romaji":"Zannen desu ne. Nanika motte ikimashoo ka.","en":"Too bad. Shall I bring something?","ru":"Жаль. Принести что-нибудь?"},
+      {"speaker":"みちこ","jp":"何もいらないと思います。","romaji":"Nani mo iranai to omoimasu.","en":"Nothing is needed, I think.","ru":"Думаю, ничего не нужно."}
+    ]
+  },
+  "A18": {
+    "id": "A18", "series": "A", "source": "GENKI I", "lesson": "Lesson 8",
+    "title": "バーベキュー — Barbecue", "dialogueNum": "II",
+    "audioFiles": ["A18.mp3","A18-01.mp3","A18-02.mp3","A18-03.mp3","A18-04.mp3","A18-05.mp3","A18-06.mp3","A18-07.mp3","A18-08.mp3","A18-09.mp3","A18-10.mp3","A18-11.mp3","A18-12.mp3","A18-13.mp3","A18-14.mp3","A18-15.mp3","A18-16.mp3","A18-17.mp3"],
+    "lines": [
+      {"speaker":"みちこ","jp":"上手ですね。ロバートさんは料理するのが好きですか。","romaji":"Joozu desu ne. Robaato-san wa ryoori suru no ga suki desu ka.","en":"You're good! Do you like cooking, Robert?","ru":"Здорово готовите! Нравится готовить, Роберт?"},
+      {"speaker":"ロバート","jp":"はい、よくうちで料理します。","romaji":"Hai, yoku uchi de ryoori shimasu.","en":"Yes, I often cook at home.","ru":"Да, часто готовлю дома."},
+      {"speaker":"みちこ","jp":"何か手伝いましょうか。","romaji":"Nanika tetsudaimashoo ka.","en":"Shall I help?","ru":"Помочь чем-нибудь?"},
+      {"speaker":"ロバート","jp":"じゃあ、トマトを切ってください。","romaji":"Jaa, tomato o kitte kudasai.","en":"Then cut the tomatoes, please.","ru":"Порежьте помидоры."},
+      {"speaker":"ロバート","jp":"始めましょう。","romaji":"Hajimemashoo.","en":"Let's start!","ru":"Начнём!"},
+      {"speaker":"みちこ","jp":"まだ飲まないで。メアリーさんが来ると言っていました。","romaji":"Mada nomanaide. Mearii-san ga kuru to itte imashita.","en":"Don't drink yet. Mary said she would come.","ru":"Подожди пить. Мэри сказала, что придёт."},
+      {"speaker":"メアリー","jp":"おそくなってすみません。","romaji":"Osoku natte sumimasen.","en":"Sorry for being late.","ru":"Извините за опоздание."},
+      {"speaker":"みんな","jp":"じゃあ、乾杯！","romaji":"Jaa, kanpai!","en":"Cheers!","ru":"Кампай!"}
+    ]
+  },
+  "A19": {
+    "id": "A19", "series": "A", "source": "GENKI I", "lesson": "Lesson 9",
+    "title": "かぶき — Kabuki", "dialogueNum": "I",
+    "audioFiles": ["A19.mp3","A19-01.mp3","A19-02.mp3","A19-03.mp3","A19-04.mp3","A19-05.mp3","A19-06.mp3","A19-07.mp3","A19-08.mp3","A19-09.mp3","A19-10.mp3"],
+    "lines": [
+      {"speaker":"たけし","jp":"メアリーさんはかぶきを見たことがありますか。","romaji":"Mearii-san wa kabuki o mita koto ga arimasu ka.","en":"Mary, have you ever seen Kabuki?","ru":"Мэри, вы видели кабуки?"},
+      {"speaker":"メアリー","jp":"いいえ。でも、ロバートさんがおもしろいと言っていました。","romaji":"Iie. Demo, Robaato-san ga omoshiroi to itte imashita.","en":"No. But Robert said it was interesting.","ru":"Нет. Но Роберт говорил, что интересно."},
+      {"speaker":"たけし","jp":"かぶきの切符が二枚もらったんですが、よかったら見に行きませんか。","romaji":"Kabuki no kippu ga nimai moratta n desu ga, yokattara mi ni ikimasen ka.","en":"I got two Kabuki tickets. Would you like to go?","ru":"Я получил два билета на кабуки. Хотите сходить?"},
+      {"speaker":"メアリー","jp":"ええ。いつですか。","romaji":"Ee. Itsu desu ka.","en":"Sure. When is it?","ru":"Да! Когда?"},
+      {"speaker":"たけし","jp":"土曜日です。十二時から四時まで。","romaji":"Do-yoobi desu. Juuniji kara yoji made.","en":"Saturday. From twelve to four.","ru":"В субботу. С 12 до 4."}
+    ]
+  },
+  "A20": {
+    "id": "A20", "series": "A", "source": "GENKI I", "lesson": "Lesson 9",
+    "title": "かぶき — Kabuki", "dialogueNum": "II",
+    "audioFiles": ["A20.mp3","A20-01.mp3","A20-02.mp3","A20-03.mp3","A20-04.mp3","A20-05.mp3","A20-06.mp3","A20-07.mp3","A20-08.mp3"],
+    "lines": [
+      {"speaker":"メアリー","jp":"きれいでしたね。","romaji":"Kiree deshita ne.","en":"It was beautiful.","ru":"Было красиво."},
+      {"speaker":"たけし","jp":"出てくる人はみんな男の人ですよ。","romaji":"Dete kuru hito wa minna otoko no hito desu yo.","en":"All the performers are men.","ru":"Все актёры — мужчины."},
+      {"speaker":"メアリー","jp":"ほんとう！","romaji":"Hontoo!","en":"Really!","ru":"Правда?!"},
+      {"speaker":"たけし","jp":"ところで、もうお昼ごはん食べましたか。","romaji":"Tokoro de, moo ohiru gohan tabemashita ka.","en":"By the way, have you eaten lunch?","ru":"Кстати, вы обедали?"},
+      {"speaker":"メアリー","jp":"いいえ、まだ食べていません。","romaji":"Iie, mada tabete imasen.","en":"No, not yet.","ru":"Нет, ещё нет."},
+      {"speaker":"たけし","jp":"じゃあ、買いに行きましょうか。","romaji":"Jaa, kai ni ikimashoo ka.","en":"Shall we go buy some?","ru":"Пойдём купим?"}
+    ]
+  },
+  "A21": {
+    "id": "A21", "series": "A", "source": "GENKI I", "lesson": "Lesson 9",
+    "title": "かぶき — Kabuki", "dialogueNum": "III",
+    "audioFiles": ["A21.mp3","A21-01.mp3","A21-02.mp3","A21-03.mp3","A21-04.mp3","A21-05.mp3","A21-06.mp3","A21-07.mp3","A21-08.mp3","A21-09.mp3","A21-10.mp3","A21-11.mp3","A21-12.mp3","A21-13.mp3","A21-14.mp3","A21-15.mp3","A21-16.mp3","A21-17.mp3","A21-18.mp3","A21-19.mp3","A21-20.mp3","A21-21.mp3"],
+    "lines": [
+      {"speaker":"たけし","jp":"すみません。お弁当をふたつください。","romaji":"Sumimasen. Obentoo o futatsu kudasai.","en":"Two box lunches, please.","ru":"Два бэнто, пожалуйста."},
+      {"speaker":"みせのひと","jp":"はい、どうぞ。","romaji":"Hai, doozo.","en":"Here you go.","ru":"Вот, пожалуйста."},
+      {"speaker":"たけし","jp":"それから、お茶をひとつとコーヒーをひとつ。","romaji":"Sorekara, ocha o hitotsu to koohii o hitotsu.","en":"And one tea and one coffee.","ru":"И один чай и один кофе."},
+      {"speaker":"みせのひと","jp":"にせんはっぴゃくえんです。","romaji":"Nisen happyaku en desu.","en":"That is 2,800 yen.","ru":"С вас 2800 йен."}
+    ]
+  },
+  "A22": {
+    "id": "A22", "series": "A", "source": "GENKI I", "lesson": "Lesson 10",
+    "title": "冬休みの予定 — Winter Vacation Plans", "dialogueNum": "I",
+    "audioFiles": ["A22.mp3","A22-01.mp3","A22-02.mp3","A22-03.mp3","A22-04.mp3","A22-05.mp3","A22-06.mp3","A22-07.mp3","A22-08.mp3","A22-09.mp3","A22-10.mp3","A22-11.mp3","A22-12.mp3","A22-13.mp3","A22-14.mp3","A22-15.mp3","A22-16.mp3"],
+    "lines": [
+      {"speaker":"メアリー","jp":"寒くなりましたね。冬休みはどうしますか。","romaji":"Samuku narimashita ne. Fuyuyasumi wa doo shimasu ka.","en":"It's getting cold. What will you do for winter break?","ru":"Похолодало. Что будете делать на зимних каникулах?"},
+      {"speaker":"メアリー","jp":"韓国か台湾に行こうと思っていますが、まだ決めていません。","romaji":"Kankoku ka Taiwan ni ikoo to omotte imasu ga, mada kimete imasen.","en":"I'm thinking of going to Korea or Taiwan, but haven't decided.","ru":"Думаю поехать в Корею или Тайвань, но ещё не решила."},
+      {"speaker":"たけし","jp":"いいですね。","romaji":"Ii desu ne.","en":"That's nice.","ru":"Здорово."},
+      {"speaker":"メアリー","jp":"台湾のほうがあたたかいと思います。でも、スーさんは韓国の食べ物がおいしいと言っていました。","romaji":"Taiwan no hoo ga atatakai to omoimasu. Demo, Suu-san wa Kankoku no tabemono ga oishii to itte imashita.","en":"I think Taiwan is warmer. But Sue said Korean food is delicious.","ru":"На Тайване теплее. Но Сью говорила, что в Корее вкусная еда."},
+      {"speaker":"たけし","jp":"ぼくはどこも行きません。お金がないから。","romaji":"Boku wa doko mo ikimasen. Okane ga nai kara.","en":"I won't go anywhere. I don't have money.","ru":"Я никуда не поеду. Денег нет."},
+      {"speaker":"メアリー","jp":"じゃあ、おみやげを買ってきます。","romaji":"Jaa, omiyage o katte kimasu.","en":"Then I'll buy souvenirs for you.","ru":"Тогда привезу вам сувениры."},
+      {"speaker":"たけし","jp":"わあ、ありがとう。","romaji":"Waa, arigatoo.","en":"Wow, thanks!","ru":"О, спасибо!"}
+    ]
+  },
+  "A23": {
+    "id": "A23", "series": "A", "source": "GENKI I", "lesson": "Lesson 10",
+    "title": "冬休みの予定 — Winter Vacation Plans", "dialogueNum": "II",
+    "audioFiles": ["A23.mp3","A23-01.mp3","A23-02.mp3","A23-03.mp3","A23-04.mp3","A23-05.mp3","A23-06.mp3","A23-07.mp3","A23-08.mp3","A23-09.mp3","A23-10.mp3","A23-11.mp3","A23-12.mp3"],
+    "lines": [
+      {"speaker":"メアリー","jp":"大阪からソウルまでの飛行機の予約をお願いします。","romaji":"Oosaka kara Souru made no hikooki no yoyaku o onegai shimasu.","en":"I'd like to reserve a flight from Osaka to Seoul.","ru":"Хочу забронировать билет из Осаки в Сеул."},
+      {"speaker":"旅行会社","jp":"いつですか。","romaji":"Itsu desu ka.","en":"When?","ru":"Когда?"},
+      {"speaker":"メアリー","jp":"十二月十九日です。","romaji":"Juunigatsu juukunichi desu.","en":"December 19.","ru":"19 декабря."},
+      {"speaker":"旅行会社","jp":"午前と午後の便がありますが。","romaji":"Gozen to gogo no bin ga arimasu ga.","en":"We have morning and afternoon flights.","ru":"Есть утренний и дневной рейс."},
+      {"speaker":"メアリー","jp":"午前の便をお願いします。クレジットカードでもいいですか。","romaji":"Gozen no bin o onegai shimasu. Kurejitto kaado de mo ii desu ka.","en":"Morning flight, please. Can I use a credit card?","ru":"Утренний. Можно картой?"},
+      {"speaker":"旅行会社","jp":"はい。","romaji":"Hai.","en":"Yes.","ru":"Да."},
+      {"speaker":"メアリー","jp":"ソウルまでどのぐらいかかりますか。","romaji":"Souru made dono gurai kakarimasu ka.","en":"How long to Seoul?","ru":"Сколько лететь до Сеула?"},
+      {"speaker":"旅行会社","jp":"一時間半ぐらいです。","romaji":"Ichijikan han gurai desu.","en":"About one and a half hours.","ru":"Около полутора часов."}
+    ]
+  },
+  "A24": {
+    "id": "A24", "series": "A", "source": "GENKI I", "lesson": "Lesson 11",
+    "title": "休みのあと — After the Vacation", "dialogueNum": "I",
+    "audioFiles": ["A24.mp3","A24-01.mp3","A24-02.mp3","A24-03.mp3","A24-04.mp3","A24-05.mp3","A24-06.mp3","A24-07.mp3","A24-08.mp3","A24-09.mp3","A24-10.mp3","A24-11.mp3","A24-12.mp3","A24-13.mp3","A24-14.mp3","A24-15.mp3","A24-16.mp3","A24-17.mp3","A24-18.mp3","A24-19.mp3","A24-20.mp3","A24-21.mp3","A24-22.mp3","A24-23.mp3","A24-24.mp3","A24-25.mp3","A24-26.mp3","A24-27.mp3","A24-28.mp3","A24-29.mp3","A24-30.mp3","A24-31.mp3","A24-32.mp3","A24-33.mp3","A24-34.mp3","A24-35.mp3","A24-36.mp3","A24-37.mp3","A24-38.mp3"],
+    "lines": [
+      {"speaker":"みちこ","jp":"メアリーさん、久しぶりですね。休みはどうでしたか。","romaji":"Mearii-san, hisashiburi desu ne. Yasumi wa doo deshita ka.","en":"Mary, long time no see. How was your vacation?","ru":"Мэри, давно не виделись. Как каникулы?"},
+      {"speaker":"メアリー","jp":"すごく楽しかったです。韓国で買い物をしたり、韓国料理を食べたりしました。","romaji":"Sugoku tanoshikatta desu. Kankoku de kaimono o shitari, Kankoku ryoori o tabetari shimashita.","en":"It was really fun. I went shopping and ate Korean food in Korea.","ru":"Очень весело! Ходила по магазинам, ела корейскую еду."},
+      {"speaker":"みちこ","jp":"いいですね。私も旅行したいです。","romaji":"Ii desu ne. Watashi mo ryokoo shitai desu.","en":"Nice. I want to travel too.","ru":"Здорово. Тоже хочу путешествовать."},
+      {"speaker":"みちこ","jp":"まあまあでした。一日だけドライブに行きましたが、毎日バイトしていました。","romaji":"Maamaa deshita. Ichinichi dake doraibu ni ikimashita ga, mainichi baito shite imashita.","en":"It was okay. I went for a drive one day, but worked part-time every day.","ru":"Так себе. Один день ездила на прогулку, но в остальные — работала."}
+    ]
+  },
+  "A25": {
+    "id": "A25", "series": "A", "source": "GENKI I", "lesson": "Lesson 11",
+    "title": "休みのあと — After the Vacation", "dialogueNum": "II",
+    "audioFiles": ["A25.mp3","A25-01.mp3","A25-02.mp3","A25-03.mp3","A25-04.mp3","A25-05.mp3","A25-06.mp3","A25-07.mp3","A25-08.mp3","A25-09.mp3","A25-10.mp3","A25-11.mp3","A25-12.mp3","A25-13.mp3","A25-14.mp3","A25-15.mp3","A25-16.mp3","A25-17.mp3","A25-18.mp3"],
+    "lines": [
+      {"speaker":"メアリー","jp":"みちこさん、友だちを紹介します。こちらはジョンさんです。","romaji":"Michiko-san, tomodachi o shookai shimasu. Kochira wa Jon-san desu.","en":"Michiko, let me introduce my friend. This is John.","ru":"Митико, представляю друга. Это Джон."},
+      {"speaker":"ジョン","jp":"はじめまして。","romaji":"Hajimemashite.","en":"How do you do?","ru":"Приятно познакомиться."},
+      {"speaker":"みちこ","jp":"はじめまして。山川みちこです。","romaji":"Hajimemashite. Yamakawa Michiko desu.","en":"How do you do? I am Michiko Yamakawa.","ru":"Приятно познакомиться. Ямакава Митико."}
+    ]
+  },
+  "A26": {
+    "id": "A26", "series": "A", "source": "GENKI I", "lesson": "Lesson 11",
+    "title": "休みのあと — After the Vacation", "dialogueNum": "III",
+    "audioFiles": ["A26.mp3","A26-01.mp3","A26-02.mp3","A26-03.mp3","A26-04.mp3","A26-05.mp3","A26-06.mp3","A26-07.mp3","A26-08.mp3","A26-09.mp3","A26-10.mp3","A26-11.mp3","A26-12.mp3","A26-13.mp3","A26-14.mp3","A26-15.mp3","A26-16.mp3","A26-17.mp3","A26-18.mp3","A26-19.mp3","A26-20.mp3","A26-21.mp3","A26-22.mp3","A26-23.mp3"],
+    "lines": [
+      {"speaker":"みちこ","jp":"ジョンさん、出身はどこですか。","romaji":"Jon-san, shusshin wa doko desu ka.","en":"John, where are you from?","ru":"Джон, откуда вы?"},
+      {"speaker":"ジョン","jp":"オーストラリアのケアンズです。","romaji":"Oosutoraria no Keeanzu desu.","en":"Cairns, Australia.","ru":"Из Кэрнса, Австралия."},
+      {"speaker":"ジョン","jp":"山や海があって、きれいなところです。グレート・バリア・リーフで有名です。","romaji":"Yama ya umi ga atte, kiree na tokoro desu. Gureeto Baria Riifu de yuumee desu.","en":"It has mountains and ocean. It's famous for the Great Barrier Reef.","ru":"Там горы и океан. Знаменит Большим Барьерным рифом."},
+      {"speaker":"みちこ","jp":"名古屋です。ぜひ遊びに来てください。食べ物もおいしいですよ。","romaji":"Nagoya desu. Zehi asobi ni kite kudasai. Tabemono mo oishii desu yo.","en":"Nagoya. Please visit! The food is great too.","ru":"Из Нагои. Приезжайте в гости! Еда тоже вкусная."},
+      {"speaker":"ジョン","jp":"ぜひ、行きたいです。","romaji":"Zehi, ikitai desu.","en":"I'd love to!","ru":"Обязательно приеду!"}
+    ]
+  },
+  "A27": {
+    "id": "A27", "series": "A", "source": "GENKI I", "lesson": "Lesson 11",
+    "title": "休みのあと — After the Vacation", "dialogueNum": "II",
+    "audioFiles": ["A27.mp3","A27-01.mp3","A27-02.mp3","A27-03.mp3","A27-04.mp3","A27-05.mp3","A27-06.mp3","A27-07.mp3","A27-08.mp3","A27-09.mp3","A27-10.mp3","A27-11.mp3","A27-12.mp3","A27-13.mp3","A27-14.mp3"],
+    "lines": [
+      {"speaker":"メアリー","jp":"みちこさん、友だちを紹介します。こちらはジョンさんです。","romaji":"Michiko-san, tomodachi o shookai shimasu. Kochira wa Jon-san desu.","en":"Michiko, I want to introduce you to a friend of mine. This is John.","ru":"Митико, хочу представить друга. Это Джон."},
+      {"speaker":"メアリー","jp":"ジョンさんは先月、日本に来ました。","romaji":"Jon-san wa sengetsu, Nihon ni kimashita.","en":"He came to Japan last month.","ru":"Он приехал в Японию в прошлом месяце."},
+      {"speaker":"ジョン","jp":"初めまして。","romaji":"Hajimemashite.","en":"How do you do?","ru":"Приятно познакомиться."},
+      {"speaker":"みちこ","jp":"初めまして。山川みちこです。","romaji":"Hajimemashite. Yamakawa Michiko desu.","en":"How do you do? I am Michiko Yamakawa.","ru":"Приятно познакомиться. Ямакава Митико."}
+    ]
+  },
+  "A28": {
+    "id": "A28", "series": "A", "source": "GENKI I", "lesson": "Lesson 11",
+    "title": "休みのあと — After the Vacation", "dialogueNum": "III",
+    "audioFiles": ["A28.mp3","A28-01.mp3","A28-02.mp3","A28-03.mp3","A28-04.mp3","A28-05.mp3","A28-06.mp3","A28-07.mp3","A28-08.mp3","A28-09.mp3","A28-10.mp3","A28-11.mp3","A28-12.mp3","A28-13.mp3","A28-14.mp3","A28-15.mp3","A28-16.mp3","A28-17.mp3","A28-18.mp3","A28-19.mp3","A28-20.mp3"],
+    "lines": [
+      {"speaker":"みちこ","jp":"ジョンさん、出身はどこですか。","romaji":"Jon-san, shusshin wa doko desu ka.","en":"John, where are you from?","ru":"Джон, откуда вы?"},
+      {"speaker":"ジョン","jp":"オーストラリアのケアンズです。","romaji":"Oosutoraria no Keeanzu desu.","en":"I am from Cairns, Australia.","ru":"Из Кэрнса, Австралия."},
+      {"speaker":"みちこ","jp":"そうですか。","romaji":"Soo desu ka.","en":"Is that so.","ru":"Вот как."},
+      {"speaker":"ジョン","jp":"みちこさんはケアンズに行ったことがありますか。","romaji":"Michiko-san wa Keeanzu ni itta koto ga arimasu ka.","en":"Have you been to Cairns?","ru":"Вы бывали в Кэрнсе?"},
+      {"speaker":"みちこ","jp":"いいえ、ありません。","romaji":"Iie, arimasen.","en":"No, I haven't.","ru":"Нет, не бывала."},
+      {"speaker":"ジョン","jp":"山や海があって、きれいな所です。グレート・バリアリーフで有名です。","romaji":"Yama ya umi ga atte, kiree na tokoro desu. Gureeto Baria Riifu de yuumee desu.","en":"It has mountains and the ocean and is a beautiful place. It's famous for the Great Barrier Reef.","ru":"Там горы и океан, красивое место. Знаменит Большим Барьерным рифом."},
+      {"speaker":"ジョン","jp":"みちこさんはどこの出身ですか。","romaji":"Michiko-san wa doko no shusshin desu ka.","en":"Where are you from, Michiko?","ru":"А вы откуда, Митико?"},
+      {"speaker":"みちこ","jp":"長野です。今度遊びに来てください。食べ物もおいしいですよ。","romaji":"Nagano desu. Kondo asobi ni kite kudasai. Tabemono mo oishii desu yo.","en":"Nagano. Please come to visit me sometime. The food is good, too.","ru":"Из Нагано. Приезжайте в гости! Еда тоже вкусная."},
+      {"speaker":"ジョン","jp":"ぜひ、行きたいです。","romaji":"Zehi, ikitai desu.","en":"By all means, I would love to.","ru":"Обязательно приеду!"}
+    ]
+  },
+  "B01": {"id":"B01","series":"B","source":"Beginning Japanese","title":"Dai-1-ka no 3","audioFiles":["B01.mp3","B01-01.mp3","B01-02.mp3","B01-03.mp3","B01-04.mp3","B01-05.mp3","B01-06.mp3","B01-07.mp3"],"lines":[{"speaker":"Male agent","jp":"","romaji":"","en":"Do you understand Japanese?","ru":"Вы понимаете японский?"},{"speaker":"Kiara","jp":"","romaji":"","en":"Yes, I understand.","ru":"Да, понимаю."},{"speaker":"Female agent","jp":"","romaji":"","en":"That's great. Can you introduce yourself?","ru":"Замечательно. Представьтесь."},{"speaker":"Kiara","jp":"","romaji":"","en":"How do you do? I am Kiara. Pleased to meet you.","ru":"Здравствуйте! Я Киара. Приятно познакомиться."}]},
+  "B02": {"id":"B02","series":"B","source":"Beginning Japanese","title":"Dai-1-ka no 4","audioFiles":["B02.mp3","B02-01.mp3","B02-02.mp3","B02-03.mp3","B02-04.mp3","B02-05.mp3","B02-06.mp3","B02-07.mp3","B02-08.mp3","B02-09.mp3","B02-10.mp3","B02-11.mp3","B02-12.mp3","B02-13.mp3","B02-14.mp3","B02-15.mp3","B02-16.mp3"],"lines":[{"speaker":"","jp":"","romaji":"","en":"[sign] Welcome Kiara!","ru":"[табличка] Добро пожаловать, Киара!"},{"speaker":"Kiara","jp":"","romaji":"","en":"How do you do? I am Kiara. Are you Jun?","ru":"Здравствуйте! Я Киара. Вы Дзюн?"},{"speaker":"Jun","jp":"","romaji":"","en":"Yes. I am Jun. Welcome! This is my mother. This is my father.","ru":"Да. Я Дзюн. Добро пожаловать! Это мама. Это папа."},{"speaker":"Mayumi","jp":"","romaji":"","en":"How do you do?","ru":"Здравствуйте!"},{"speaker":"Tarou","jp":"","romaji":"","en":"I am Jun's father. Very pleased to meet you.","ru":"Я отец Дзюна. Очень рад знакомству."}]},
+  "B03": {"id":"B03","series":"B","source":"Beginning Japanese","title":"Dai-1-ka no 5","audioFiles":["B03.mp3","B03-01.mp3","B03-02.mp3","B03-03.mp3","B03-04.mp3","B03-05.mp3","B03-06.mp3","B03-07.mp3","B03-08.mp3","B03-09.mp3","B03-10.mp3","B03-11.mp3","B03-12.mp3","B03-13.mp3","B03-14.mp3","B03-15.mp3","B03-16.mp3","B03-17.mp3","B03-18.mp3","B03-19.mp3","B03-20.mp3","B03-21.mp3","B03-22.mp3"],"lines":[{"speaker":"Aiko","jp":"","romaji":"","en":"Jun, I'm home. Where is Kiara?","ru":"Дзюн, я дома. Где Киара?"},{"speaker":"Jun","jp":"","romaji":"","en":"Welcome home. She's in her room.","ru":"С возвращением. В своей комнате."},{"speaker":"Aiko","jp":"","romaji":"","en":"Good evening.","ru":"Добрый вечер."},{"speaker":"Kiara","jp":"","romaji":"","en":"Good evening. I am Kiara. Pleased to meet you.","ru":"Добрый вечер. Я Киара. Приятно познакомиться."},{"speaker":"Mayumi","jp":"","romaji":"","en":"This is sushi. These are chopsticks. Please.","ru":"Это суши. Это палочки. Угощайтесь."},{"speaker":"Kiara","jp":"","romaji":"","en":"Which is the soy sauce?","ru":"Где соевый соус?"},{"speaker":"Mayumi","jp":"","romaji":"","en":"Over there. That is wasabi.","ru":"Вон там. Это васаби."},{"speaker":"Kiara","jp":"","romaji":"","en":"Is that the egg?","ru":"Это яйцо?"},{"speaker":"Jun","jp":"","romaji":"","en":"Yes.","ru":"Да."}]},
+  "B04": {"id":"B04","series":"B","source":"Beginning Japanese","title":"Dai-2-ka no 1","audioFiles":["B04.mp3","B04-01.mp3","B04-02.mp3","B04-03.mp3","B04-04.mp3","B04-05.mp3","B04-06.mp3","B04-07.mp3","B04-08.mp3","B04-09.mp3","B04-10.mp3","B04-11.mp3"],"lines":[{"speaker":"Jun","jp":"","romaji":"","en":"What is that?","ru":"Что это?"},{"speaker":"Kiara","jp":"","romaji":"","en":"This is my bag. Inside is a photo. My family is six people. This is my father and mother. These are my younger sisters. This is my older brother. My dog is Koma.","ru":"Это моя сумка. Внутри фото. В семье 6 человек. Это отец и мать. Это младшие сёстры. Это старший брат. Собаку зовут Кома."}]},
+  "B05": {"id":"B05","series":"B","source":"Beginning Japanese","title":"Dai-2-ka no 2","audioFiles":["B05.mp3","B05-01.mp3","B05-02.mp3","B05-03.mp3","B05-04.mp3","B05-05.mp3","B05-06.mp3","B05-07.mp3","B05-08.mp3","B05-09.mp3","B05-10.mp3","B05-11.mp3","B05-12.mp3","B05-13.mp3","B05-14.mp3","B05-15.mp3","B05-16.mp3","B05-17.mp3","B05-18.mp3","B05-19.mp3","B05-20.mp3","B05-21.mp3","B05-22.mp3","B05-23.mp3","B05-24.mp3"],"lines":[{"speaker":"Jun","jp":"","romaji":"","en":"This is my friend's house. Excuse me.","ru":"Дом моего друга. Извините."},{"speaker":"Cathy","jp":"","romaji":"","en":"Jun, hello. I am Cathy.","ru":"Дзюн, привет. Я Кэти."},{"speaker":"Kiara","jp":"","romaji":"","en":"I'm Kiara. I'm staying with Jun's family. Can we speak Japanese?","ru":"Я Киара. Живу в семье Дзюна. Можно по-японски?"},{"speaker":"Cathy","jp":"","romaji":"","en":"Yes! It's Japan. Do your best!","ru":"Конечно! Ведь Япония. Удачи!"}]},
+  "B06": {"id":"B06","series":"B","source":"Beginning Japanese","title":"Dai-2-ka no 3","audioFiles":["B06.mp3","B06-01.mp3","B06-02.mp3","B06-03.mp3","B06-04.mp3","B06-05.mp3","B06-06.mp3","B06-07.mp3","B06-08.mp3","B06-09.mp3","B06-10.mp3","B06-11.mp3","B06-12.mp3","B06-13.mp3","B06-14.mp3","B06-15.mp3","B06-16.mp3","B06-17.mp3","B06-18.mp3"],"lines":[{"speaker":"Kiara","jp":"","romaji":"","en":"I have souvenirs for everyone.","ru":"У меня сувениры для всех."},{"speaker":"Mayumi","jp":"","romaji":"","en":"Thank you very much!","ru":"Большое спасибо!"},{"speaker":"Kiara","jp":"","romaji":"","en":"The book is for Mother, the hat for Father, the T-shirt for Jun. How many in the class?","ru":"Книга для мамы, шляпа для папы, футболка для Дзюна. Сколько человек в классе?"},{"speaker":"Jun","jp":"","romaji":"","en":"Forty.","ru":"Сорок."}]},
+  "B07": {"id":"B07","series":"B","source":"Beginning Japanese","title":"Dai-2-ka no 4","audioFiles":["B07.mp3","B07-01.mp3","B07-02.mp3","B07-03.mp3","B07-04.mp3","B07-05.mp3","B07-06.mp3","B07-07.mp3","B07-08.mp3","B07-09.mp3","B07-10.mp3","B07-11.mp3","B07-12.mp3"],"lines":[{"speaker":"Jun","jp":"","romaji":"","en":"Here is Ochanomizu. Many bookstores.","ru":"Здесь Отяномидзу. Много книжных."},{"speaker":"Kiara","jp":"","romaji":"","en":"That pencil and two erasers please. And that notebook and manga.","ru":"Тот карандаш и два ластика. И тетрадь и мангу."}]},
+  "B08": {"id":"B08","series":"B","source":"Beginning Japanese","title":"Dai-2-ka no 5","audioFiles":["B08.mp3","B08-01.mp3","B08-02.mp3","B08-03.mp3","B08-04.mp3","B08-05.mp3","B08-06.mp3","B08-07.mp3","B08-08.mp3","B08-09.mp3","B08-10.mp3","B08-11.mp3","B08-12.mp3","B08-13.mp3","B08-14.mp3"],"lines":[{"speaker":"Kiara","jp":"","romaji":"","en":"I'm hungry.","ru":"Я голодна."},{"speaker":"Jun","jp":"","romaji":"","en":"Me too. Mom, what's for dinner?","ru":"Я тоже. Мам, что на ужин?"},{"speaker":"Mayumi","jp":"","romaji":"","en":"Tako!","ru":"Тако!"},{"speaker":"Kiara","jp":"","romaji":"","en":"Taco?","ru":"Тако?"},{"speaker":"Mayumi","jp":"","romaji":"","en":"Here, please eat!","ru":"Вот, угощайтесь!"},{"speaker":"Kiara","jp":"","romaji":"","en":"This is taco?","ru":"Это тако?"}]},
+  "B09a": {"id":"B09a","series":"B","source":"Beginning Japanese","title":"Dai-3-ka no 1","audioFiles":["B09a.mp3","B09a-01.mp3","B09a-02.mp3","B09a-03.mp3","B09a-04.mp3","B09a-05.mp3","B09a-06.mp3","B09a-07.mp3","B09a-08.mp3","B09a-09.mp3","B09a-10.mp3","B09a-11.mp3","B09a-12.mp3","B09a-13.mp3","B09a-14.mp3","B09a-15.mp3","B09a-16.mp3","B09a-17.mp3","B09a-18.mp3","B09a-19.mp3","B09a-20.mp3"],"lines":[{"speaker":"Jun","jp":"","romaji":"","en":"The middle school is here. The high school is over there.","ru":"Средняя школа здесь. Старшая — там."},{"speaker":"Kiara","jp":"","romaji":"","en":"Is there a college?","ru":"Есть университет?"},{"speaker":"Jun","jp":"","romaji":"","en":"Yes. Let's go into the school.","ru":"Да. Пойдём в школу."},{"speaker":"Jun","jp":"","romaji":"","en":"No shoes!","ru":"Обувь снимите!"},{"speaker":"Kiara","jp":"","romaji":"","en":"Sorry. Where is the classroom?","ru":"Извините. Где класс?"}]},
+  "B09b": {"id":"B09b","series":"B","source":"Beginning Japanese","title":"Dai-3-ka no 2","audioFiles":["B09b.mp3","B09b-01.mp3","B09b-02.mp3","B09b-03.mp3","B09b-04.mp3","B09b-05.mp3","B09b-06.mp3","B09b-07.mp3","B09b-08.mp3","B09b-09.mp3","B09b-10.mp3","B09b-11.mp3","B09b-12.mp3","B09b-13.mp3","B09b-14.mp3","B09b-15.mp3","B09b-16.mp3","B09b-17.mp3","B09b-18.mp3","B09b-19.mp3","B09b-20.mp3","B09b-21.mp3"],"lines":[{"speaker":"Kiara","jp":"","romaji":"","en":"Good morning, Teacher. Tell me today's schedule.","ru":"Доброе утро, учитель. Расскажите о расписании."},{"speaker":"Mr. Yamamoto","jp":"","romaji":"","en":"School from 8. Today: social studies, Japanese, P.E., art, music, English.","ru":"С 8 часов. Сегодня: обществознание, японский, физкультура, рисование, музыка, английский."},{"speaker":"Kiara","jp":"","romaji":"","en":"Is the schedule different every day?","ru":"Расписание каждый день разное?"},{"speaker":"Mr. Yamamoto","jp":"","romaji":"","en":"Yes.","ru":"Да."}]},
+  "B10": {"id":"B10","series":"B","source":"Beginning Japanese","title":"Dai-3-ka no 3","audioFiles":["B10.mp3","B10-01.mp3","B10-02.mp3","B10-03.mp3","B10-04.mp3","B10-05.mp3","B10-06.mp3","B10-07.mp3","B10-08.mp3","B10-09.mp3","B10-10.mp3","B10-11.mp3","B10-12.mp3","B10-13.mp3","B10-14.mp3","B10-15.mp3","B10-16.mp3","B10-17.mp3","B10-18.mp3","B10-19.mp3","B10-20.mp3","B10-21.mp3","B10-22.mp3","B10-23.mp3","B10-24.mp3","B10-25.mp3","B10-26.mp3"],"lines":[{"speaker":"Jun","jp":"","romaji":"","en":"Computer lab is here. Gym is over there.","ru":"Компьютерный класс здесь. Спортзал там."},{"speaker":"Kiara","jp":"","romaji":"","en":"Where is the library?","ru":"Где библиотека?"},{"speaker":"Jun","jp":"","romaji":"","en":"Over there. Next is 4th period — math. 5th is English. 6th is art. My club is judo.","ru":"Вон там. 4-й урок — математика. 5-й — английский. 6-й — рисование. Мой кружок — дзюдо."},{"speaker":"Kiara","jp":"","romaji":"","en":"I'm a 3rd degree brown belt.","ru":"У меня 3-й кю коричневого пояса."},{"speaker":"Jun","jp":"","romaji":"","en":"What?!","ru":"Что?!"}]},
+  "B11": {"id":"B11","series":"B","source":"Beginning Japanese","title":"Dai-3-ka no 4","audioFiles":["B11.mp3","B11-01.mp3","B11-02.mp3","B11-03.mp3","B11-04.mp3","B11-05.mp3","B11-06.mp3","B11-07.mp3","B11-08.mp3","B11-09.mp3","B11-10.mp3","B11-11.mp3","B11-12.mp3","B11-13.mp3","B11-14.mp3","B11-15.mp3","B11-16.mp3","B11-17.mp3","B11-18.mp3","B11-19.mp3","B11-20.mp3","B11-21.mp3","B11-22.mp3","B11-23.mp3","B11-24.mp3","B11-25.mp3","B11-26.mp3","B11-27.mp3","B11-28.mp3","B11-29.mp3","B11-30.mp3","B11-31.mp3","B11-32.mp3"],"lines":[{"speaker":"Kiara","jp":"","romaji":"","en":"Teacher, it's hot. May I open the window?","ru":"Учитель, жарко. Можно открыть окно?"},{"speaker":"Mr. Yamamoto","jp":"","romaji":"","en":"Yes. No homework today, but there's a quiz. Take out textbook and paper.","ru":"Да. Домашнего задания нет, но будет тест. Достаньте учебник и бумагу."},{"speaker":"Kiara","jp":"","romaji":"","en":"May I write with a pen?","ru":"Можно ручкой?"},{"speaker":"Mr. Yamamoto","jp":"","romaji":"","en":"No.","ru":"Нет."}]},
+  "B12": {"id":"B12","series":"B","source":"Beginning Japanese","title":"Dai-3-ka no 5","audioFiles":["B12.mp3","B12-01.mp3","B12-02.mp3","B12-03.mp3","B12-04.mp3","B12-05.mp3","B12-06.mp3","B12-07.mp3","B12-08.mp3","B12-09.mp3","B12-10.mp3","B12-11.mp3","B12-12.mp3","B12-13.mp3","B12-14.mp3","B12-15.mp3","B12-16.mp3","B12-17.mp3","B12-18.mp3","B12-19.mp3","B12-20.mp3","B12-21.mp3","B12-22.mp3","B12-23.mp3","B12-24.mp3","B12-25.mp3","B12-26.mp3","B12-27.mp3","B12-28.mp3"],"lines":[{"speaker":"Ben","jp":"","romaji":"","en":"It's hot. Kiara, how is school?","ru":"Жарко. Киара, как школа?"},{"speaker":"Kiara","jp":"","romaji":"","en":"Fun. But hot and humid. No air conditioning.","ru":"Весело. Но жарко и влажно. Кондиционера нет."},{"speaker":"Ben","jp":"","romaji":"","en":"My school has AC. Wow, that wind!","ru":"У нас есть кондиционер. Ого, ветер!"},{"speaker":"Jun","jp":"","romaji":"","en":"Let's go to the torii gate!","ru":"Пойдём к тории!"},{"speaker":"Kiara","jp":"","romaji":"","en":"What! Where?","ru":"Что! Куда?"}]},
+  "B13": {"id":"B13","series":"B","source":"Beginning Japanese","title":"Dai-4-ka no 1","audioFiles":["B13.mp3","B13-01.mp3","B13-02.mp3","B13-03.mp3","B13-04.mp3","B13-05.mp3","B13-06.mp3","B13-07.mp3","B13-08.mp3","B13-09.mp3","B13-10.mp3","B13-11.mp3","B13-12.mp3","B13-13.mp3","B13-14.mp3","B13-15.mp3","B13-16.mp3","B13-17.mp3","B13-18.mp3","B13-19.mp3","B13-20.mp3","B13-21.mp3","B13-22.mp3","B13-23.mp3","B13-24.mp3","B13-25.mp3"],"lines":[{"speaker":"Ben","jp":"","romaji":"","en":"Who are you?","ru":"Кто ты?"},{"speaker":"Tomo","jp":"","romaji":"","en":"I am Tomo. That torii gate is a time gate.","ru":"Я Томо. Эти тории — врата времени."},{"speaker":"Jun","jp":"","romaji":"","en":"A time gate?","ru":"Врата времени?"},{"speaker":"Tomo","jp":"","romaji":"","en":"Be quiet. Where are you from?","ru":"Тише. Вы откуда?"}]},
+  "B14": {"id":"B14","series":"B","source":"Beginning Japanese","title":"Dai-9-ka no 5","audioFiles":["B14.mp3","B14-01.mp3","B14-02.mp3","B14-03.mp3","B14-04.mp3","B14-05.mp3","B14-06.mp3","B14-07.mp3","B14-08.mp3","B14-09.mp3","B14-10.mp3","B14-11.mp3","B14-12.mp3","B14-13.mp3","B14-14.mp3","B14-15.mp3","B14-16.mp3","B14-17.mp3","B14-18.mp3","B14-19.mp3","B14-20.mp3","B14-21.mp3","B14-22.mp3","B14-23.mp3","B14-24.mp3","B14-25.mp3"],"lines":[{"speaker":"Ben","jp":"","romaji":"","en":"Kiara, that bracelet is cute.","ru":"Киара, браслет милый."},{"speaker":"Kiara","jp":"","romaji":"","en":"My sister gave it to me. Birthday present.","ru":"Сестра подарила. На день рождения."},{"speaker":"Ben","jp":"","romaji":"","en":"I got this shirt from my brother.","ru":"Рубашку мне подарил брат."},{"speaker":"Kiara","jp":"","romaji":"","en":"My sister's birthday is July 4th. I want to give her a kimono, sweets, and her kanji name.","ru":"ДР сестры 4 июля. Хочу подарить кимоно, сладости и имя иероглифами."}]},
+  "B15": {"id":"B15","series":"B","source":"Beginning Japanese","title":"Dai-9-ka no 5b","audioFiles":["B15.mp3","B15-01.mp3","B15-02.mp3","B15-03.mp3","B15-04.mp3","B15-05.mp3","B15-06.mp3","B15-07.mp3","B15-08.mp3","B15-09.mp3","B15-10.mp3","B15-11.mp3","B15-12.mp3","B15-13.mp3","B15-14.mp3","B15-15.mp3","B15-16.mp3","B15-17.mp3","B15-18.mp3","B15-19.mp3","B15-20.mp3","B15-21.mp3","B15-22.mp3","B15-23.mp3","B15-24.mp3","B15-25.mp3","B15-26.mp3","B15-27.mp3","B15-28.mp3","B15-29.mp3"],"lines":[]},
+  "C01": {
+    "id": "C01", "series": "C", "source": "JapanesePod101", "title": "Departure",
+    "audioFiles": ["C01.mp3","C01-01.mp3","C01-02.mp3","C01-03.mp3","C01-04.mp3","C01-05.mp3","C01-06.mp3","C01-07.mp3","C01-08.mp3","C01-09.mp3"],
+    "lines": [
+      {"speaker":"ほんだ","jp":"アシュリー？","romaji":"Ashurī?","en":"Ashley?","ru":"Эшли?"},
+      {"speaker":"アシュリー","jp":"ほんだくん。こんにちは。","romaji":"Honda-kun. Konnichiwa.","en":"Hello!","ru":"Привет!"},
+      {"speaker":"ほんだ","jp":"しゅっぱつ は あした です か。","romaji":"Shuppatsu wa ashita desu ka.","en":"Is your departure tomorrow?","ru":"Вылет завтра?"},
+      {"speaker":"アシュリー","jp":"いいえ。きょう です。","romaji":"Iie. Kyō desu.","en":"No, today.","ru":"Нет, сегодня."},
+      {"speaker":"ほんだ","jp":"きょう？","romaji":"Kyō?","en":"Today?","ru":"Сегодня?"},
+      {"speaker":"アシュリー","jp":"はい。","romaji":"Hai.","en":"Yes.","ru":"Да."},
+      {"speaker":"ほんだ","jp":"ニューヨーク は いま あさ です か。","romaji":"Nyūyōku wa ima asa desu ka.","en":"Is it morning in New York?","ru":"В Нью-Йорке сейчас утро?"},
+      {"speaker":"アシュリー","jp":"はい。いま よじ です。しゅっぱつ は じゅういちじ です。","romaji":"Hai. Ima yo-ji desu. Shuppatsu wa jū-ichi-ji desu.","en":"Yes. It's 4. My departure is at 11.","ru":"Да. Сейчас 4. Вылет в 11."},
+      {"speaker":"ほんだ","jp":"じゃ、よい たび を。","romaji":"Ja, yoi tabi o.","en":"Have a nice trip!","ru":"Счастливого пути!"},
+      {"speaker":"アシュリー","jp":"はい。じゃ、また、あとで。","romaji":"Hai. Ja, mata, ato de.","en":"See you later!","ru":"До встречи!"}
+    ]
+  },
+  "C02": {
+    "id": "C02", "series": "C", "source": "JapanesePod101", "title": "Cost in Japan",
+    "audioFiles": ["C02.mp3","C02-01.mp3","C02-02.mp3","C02-03.mp3","C02-04.mp3"],
+    "lines": [
+      {"speaker":"テイラー","jp":"いま、えん は ほんとうに たかい です。","romaji":"Ima, en wa hontō ni takai desu.","en":"The yen is really strong now.","ru":"Йена сейчас сильная."},
+      {"speaker":"かおり","jp":"そう です か？１ドル は いくら です か。","romaji":"Sō desu ka? Ichi-doru wa ikura desu ka.","en":"Really? How much is one dollar?","ru":"Правда? Сколько стоит доллар?"},
+      {"speaker":"テイラー","jp":"１ドル は 78えん です。","romaji":"Ichi-doru wa nana-jū hachi-en desu.","en":"One dollar is 78 yen.","ru":"Один доллар — 78 йен."},
+      {"speaker":"かおり","jp":"78えん？たかい！","romaji":"Nana-jū hachi-en? Takai!","en":"78 yen? Expensive!","ru":"78 йен? Дорого!"}
+    ]
+  },
+  "C03": {
+    "id": "C03", "series": "C", "source": "Beginning Japanese", "title": "Seasons",
+    "audioFiles": ["C03.mp3","C03-01.mp3","C03-02.mp3","C03-03.mp3","C03-04.mp3","C03-05.mp3","C03-06.mp3","C03-07.mp3","C03-08.mp3","C03-09.mp3","C03-10.mp3","C03-11.mp3","C03-12.mp3","C03-13.mp3","C03-14.mp3","C03-15.mp3","C03-16.mp3","C03-17.mp3","C03-18.mp3","C03-19.mp3","C03-20.mp3","C03-21.mp3","C03-22.mp3","C03-23.mp3","C03-24.mp3","C03-25.mp3","C03-26.mp3","C03-27.mp3","C03-28.mp3","C03-29.mp3","C03-30.mp3","C03-31.mp3","C03-32.mp3","C03-33.mp3","C03-34.mp3","C03-35.mp3","C03-36.mp3","C03-37.mp3","C03-38.mp3","C03-39.mp3","C03-40.mp3"],
+    "lines": [
+      {"speaker":"Jun","jp":"","romaji":"","en":"Kiara, do you like Japan? What season do you like?","ru":"Киара, нравится Япония? Какое время года?"},
+      {"speaker":"Kiara","jp":"","romaji":"","en":"I like fall best. The leaves are beautiful.","ru":"Осень. Листья красивые."},
+      {"speaker":"Jun","jp":"","romaji":"","en":"What are the seasons in Maine?","ru":"Какие времена года в Мэне?"},
+      {"speaker":"Kiara","jp":"","romaji":"","en":"Spring: March-May. Summer: June-August. Fall: September-November. Winter: December-February.","ru":"Весна: март-май. Лето: июнь-август. Осень: сентябрь-ноябрь. Зима: декабрь-февраль."}
+    ]
+  }
+}
